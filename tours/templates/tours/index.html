@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load bootstrap5 %}
+
+    {% bootstrap_css %}
+
+    {% bootstrap_javascript %}
+
+    {% bootstrap_messages %}
+    <title>Tourmates</title>
+</head>
+<body>
+{% include "tours/layout/navbar.html" %}
+
+{% block content %}
+    <h4 class="mx-5 mt-2">Your location :
+
+        <form method="get" action="{% url 'index' %}" enctype="multipart/form-data">
+            <select id="city" class="form-select w-auto" aria-label="Default select example">
+                <option selected hidden>{{ location.city }}</option>
+                {% for city in city_list %}
+                    <option value="{{ city.city }}">{{ city.city }}</option>
+                {% endfor %}
+            </select>
+        <button type="submit">SAVE</button>
+        </form>
+
+    </h4>
+    <div class="container-lg bg-light px-5 py-2 mt-5">
+
+    <h1 class="p-2">Wisata Sekitarmu</h1>
+    {% if tour_list %}
+        <div class="container">
+            <div class="row row-cols-4">
+                {% for tour in tour_list %}
+                    <div class="col">
+                        <div class="card" style="width: 18rem; height: 25rem">
+                            <img src="{{ tour.image_path.url }}" class="card-img-top " style="height: 200px" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-truncate">{{ tour.name }}</h5>
+                                <p class="card-text text-truncate">{{ tour.city.city }}</p>
+
+                                <p class="card-text text-truncate">Jam Operasional : {{ tour.opening_hours }}
+                                    - {{ tour.closing_hours }}</p>
+                                <a href="{% url 'detail' tour.id %}" class="btn btn-primary">Lihat Detail </a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% else %}
+        <p>No polls are available.</p>
+    {% endif %}
+
+    <h1 class="p-2">Popular Cities</h1>
+    <div class="container">
+        <div class="row row-cols-4">
+            {% for cities in city %}
+                <div class="col">
+                    <div class="card" style="width: 18rem; height: 25rem">
+                        <div class="card-body">
+                            <p class="card-text text-truncate">{{ cities.city }}</p>
+                        </div>
+                    </div>
+                    {#                    <h1>{{ tour.name }}</h1>#}
+                    {#                <li class="list-group-item"><a href="{% url 'detail' question.id %}">{{ tour.name }}</a></li>#}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock content %}
+</div>
+</body>
+</html>

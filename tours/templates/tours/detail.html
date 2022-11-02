@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load bootstrap5 %}
+
+    {% bootstrap_css %}
+
+    {% bootstrap_javascript %}
+
+    {% bootstrap_messages %}
+    <title>Tourmates</title>
+</head>
+<body>
+{% include "tours/layout/navbar.html" %}
+
+{% block content %}
+    <div class="container-lg bg-light px-5 py-2 mt-5">
+
+        <h1 class="p-2">{{ destination.name }}</h1>
+        <p class="card-text text-truncate">{{ destination.city.city }}</p>
+
+        <p class="card-text text-truncate">Jam Operasional : {{ destination.opening_hours }}
+            - {{ destination.closing_hours }}</p>
+        <img src="{{ destination.image_path.url }}" style="max-width: 80%; max-height: 400px" alt="">
+        <p>{{ destination.description }}</p>
+    </div>
+    {#                    <h1>{{ tour.name }}</h1>#}
+    {#                <li class="list-group-item"><a href="{% url 'detail' question.id %}">{{ tour.name }}</a></li>#}
+
+{% endblock content %}
+</body>
+</html>
