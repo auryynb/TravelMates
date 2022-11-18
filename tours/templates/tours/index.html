@@ -1,83 +1,128 @@
-<!doctype html>
-<html lang="en">
-<head>
-    {% load static %}
-
-    <link rel="stylesheet" href="{% static '/style.css' %}">
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {% load bootstrap5 %}
-
-    {% bootstrap_css %}
-
-    {% bootstrap_javascript %}
-
-    {% bootstrap_messages %}
-    <title>Tourmates</title>
-</head>
-<body>
+{% load static %}
+{% include "tours/layout/header.html" %}
+<div class="head"
+     style="background : linear-gradient(180deg, #E2F6FC 14.25%, rgba(255, 255, 255, 0) 100%); height: 45rem">
 {% include "tours/layout/navbar.html" %}
 
-{% block content %}
-    <h4 class="mx-5 mt-2">Your location :
-
-        <form method="get" action="{% url 'index' %}" enctype="multipart/form-data">
-            <select id="city" class="form-select w-auto" aria-label="Default select example">
-                <option selected hidden>{{ location.city }}</option>
+<div class="hstack mx-5 gap-1">
+    <h7 class="pl-5" style="font-size: 14px">Lokasi &ensp;:</h7>
+    <form method="get" action="{% url 'search_results' %}" class="">
+        <div class="hstack gap-3">
+            <select id="city" name="city" class="city-select form-select w-auto"
+                    aria-label="Default select example"  onchange="this.form.submit()">
+                <option class="opt" selected hidden>{{ location.city }}</option>
                 {% for city in city_list %}
                     <option value="{{ city.city }}">{{ city.city }}</option>
                 {% endfor %}
             </select>
-        <button type="submit">SAVE</button>
-        </form>
+        </div>
+    </form>
+</div>
+<div class="container text-center">
+    <div class="row mt-4">
+        <div class="left-banner col">
+            <div class="head-banner">
+                <h1 class="title-banner">Yuk, &nbsp;Rencanakan Perjalanan Wisata Impianmu</h1>
+                <p class="text-banner">Plan and book your perfect trip with expert advice, travel tips, destination
+                    information and inspiration from us.</p>
+            </div>
 
-    </h4>
-    <div class="container-lg bg-light px-5 py-2 mt-5">
-
-    <h1 class="p-2">Wisata Sekitarmu</h1>
-    {% if tour_list %}
-        <div class="container">
-            <div class="row row-cols-4">
-                {% for tour in tour_list %}
+            <div class="plan-banner mt-4">
+                <div class="row">
                     <div class="col">
-                        <div class="card" style="width: 18rem; height: 25rem">
-                            <img src="{{ tour.image_path.url }}" class="card-img-top " style="height: 200px" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title text-truncate">{{ tour.name }}</h5>
-                                <p class="card-text text-truncate">{{ tour.city.city }}</p>
-
-                                <p class="card-text text-truncate">Jam Operasional : {{ tour.opening_hours }}
-                                    - {{ tour.closing_hours }}</p>
-                                <a href="{% url 'detail' tour.id %}" class="btn btn-primary">Lihat Detail </a>
-                            </div>
+                        <div class="form-floating">
+                            <select class="plan-form form-select align-baseline" id="floatingSelect"
+                                    aria-label="Floating label select example">
+                                <option selected hidden>{{ location.city }}</option>
+                                {% for city in city_list %}
+                                    <option value="{{ city.city }}">{{ city.city }}, {{ city.province }}</option>
+                                {% endfor %}
+                            </select>
+                            <label for="floatingSelect" style="font-family: Inter">Tujuan</label>
                         </div>
                     </div>
-                {% endfor %}
+                    <div class="vr" style="width: 1px !important; padding: 0px !important;"></div>
+                    <div class="col">
+                        <div class="form-floating">
+                            <input type="date" class="form-control" id="inputdate" style="border: none">
+                            <label for="inputdate">Tanggal</label>
+                        </div>
+                    </div>
+                    <div class="col-2 d-flex align-center">
+                        <button class="button-plan">
+                            <img src="{% static 'tours/assets/img_2.png' %}" class="img-fluid" height="58"
+                                 width="58">
+
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-    {% else %}
-        <p>No polls are available.</p>
-    {% endif %}
+        <div class="right-banner col">
+            <img src="{% static 'tours/assets/img_7.png' %}" class="img-fluid" height="505" width="485">
+        </div>
+    </div>
+</div>
+</div>
 
-    <h1 class="p-2">Popular Cities</h1>
-    <div class="container">
-        <div class="row row-cols-4">
-            {% for cities in city %}
-                <div class="col">
-                    <div class="card" style="width: 18rem; height: 25rem">
-                        <div class="card-body">
-                            <p class="card-text text-truncate">{{ cities.city }}</p>
+{% block content %}
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="row row-cols-3" style="">
+            <div class="col">
+                <img src="{% static 'tours/assets/img_3.png' %}" class="img-fluid" height="182" width="385">
+
+            </div>
+            <div class="col">
+                <img src="{% static 'tours/assets/img_6.png' %}" class="img-fluid" height="182" width="385">
+
+            </div>
+            <div class="col">
+                <img src="{% static 'tours/assets/img_4.png' %}" class="img-fluid" height="182" width="385">
+
+            </div>
+        </div>
+    </div>
+    <div class="container-lg px-5 py-2 mt-5">
+    <div class="recom">
+        <h3 class="recom pt-2">Wisata Sekitarmu</h3>
+        <p>Lihat tempat wisata yang sedang popouler di sekitarmu</p>
+    </div>
+    <div id="carouselExampleControls" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel"
+         data-bs-interval="20000">
+        <div class="carousel-inner">
+            {% for list in tour_list %}
+                <div class="carousel-item {% if forloop.counter0 %} {% else %} active {% endif %}">
+                    <div class="container">
+                        <div class="row row-cols-4">
+                            {% for tour in list %}
+                                <div class="cardimg col">
+                                    <a href="{% url 'detail' tour.id %}" class="text-decoration-none text-dark">
+                                        <div class=" card" style="width: 18rem; height: 20rem; border-radius: 20px">
+                                            <img src="{{ tour.image_path.url }}" class=" card-img-top "
+                                                 style="height: 200px; border-radius: 10px"
+                                                 alt="">
+                                            <div class="card-cont card-body">
+                                                <h6 class="card-title text-truncate">{{ tour.name }}</h6>
+                                                <p class="card-text text-truncate">{{ tour.city.city }}</p>
+                                                <p class="card-text text-truncate">{{ tour.categories }}</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            {% endfor %}
                         </div>
                     </div>
-                    {#                    <h1>{{ tour.name }}</h1>#}
-                    {#                <li class="list-group-item"><a href="{% url 'detail' question.id %}">{{ tour.name }}</a></li>#}
                 </div>
             {% endfor %}
         </div>
-    </div>
+        <button class="car-next carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
 
+    </div>
 {% endblock content %}
 </div>
 </body>

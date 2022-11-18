@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap5',
     'geoip2',
+    'django_bootstrap_icons',
 ]
 
 MIDDLEWARE = [

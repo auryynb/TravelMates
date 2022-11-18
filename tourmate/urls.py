@@ -19,7 +19,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('tours/', include('tours.urls')),
+    path('', include('tours.urls')),
     path('admin/', admin.site.urls),
 ]
 if settings.DEBUG:

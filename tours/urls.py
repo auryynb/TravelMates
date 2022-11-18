@@ -20,6 +20,7 @@ from . import views
 urlpatterns = [
     path('', views.IndexView.as_view(), name="index"),
     path('destination/<int:pk>/', views.DetailView.as_view(), name='detail'),
+    path("city/", views.IndexView.as_view(), name="search_results"),
 ]
 
 
