@@ -1,10 +1,13 @@
 from django.shortcuts import render
 from django.views import generic
+from django.views.generic.edit import CreateView
 from django.views.generic.detail import SingleObjectMixin
 from django.contrib.gis.geoip2 import GeoIP2
-from .models import City, Destination
+from .models import City, Destination, Image, ImageAlbum, RencanaWisata
 from django.db.models import Q, Case, When, Value, BooleanField
 from django import forms
+from django.http import HttpResponse
+
 
 
 # Create your views here.
@@ -47,9 +50,9 @@ class IndexView(generic.ListView):
         if self.request.GET.get("city") is not None:
             user_city['city'] = self.request.GET.get("city")
         g = Destination.objects.filter(
-                Q(city__city=user_city['city']) | Q(city__related_city=user_city['city'])).annotate(
-                relevancy=Case(When(city=user_city['city'], then=Value(True)), output_field=BooleanField())).order_by(
-                'relevancy')
+            Q(city__city=user_city['city']) | Q(city__related_city=user_city['city'])).annotate(
+            relevancy=Case(When(city=user_city['city'], then=Value(True)), output_field=BooleanField())).order_by(
+            'relevancy')
         if not g:
             g = Destination.objects.all()
         return list(self.divide_chunks(g))
@@ -59,3 +62,54 @@ class IndexView(generic.ListView):
 class DetailView(generic.DetailView):
     model = Destination
     template_name = 'tours/detail.html'
+
+    def get_context_data(self, *args, **kwargs):
+        context = super(DetailView, self).get_context_data(*args, **kwargs)
+        context['image'] = Image.objects.filter(
+            album_id=(Destination.objects.values_list('album_id').get(id=self.kwargs['pk'])))
+        return context
+
+
+class IndexPlanView(generic.ListView):
+    template_name = 'tours/plan_list.html'
+    context_object_name = 'plan_list'
+
+    def get_context_data(self, *args, **kwargs):
+        user_city = IndexView.get_ip(self)
+        if self.request.GET.get("city") is not None:
+            user_city['city'] = self.request.GET.get("city")
+        context = super(IndexPlanView, self).get_context_data(*args, **kwargs)
+        context['location'] = user_city
+        context['city'] = City.objects.all()
+        return context
+
+    def get_queryset(self):
+        return RencanaWisata.objects.all()
+
+
+class DetailPlanView(generic.DetailView):
+    model = RencanaWisata
+    template_name = 'tours/detail.html'
+
+
+class IndexDestinationView(generic.ListView):
+    template_name = 'tours/destination_list.html'
+    context_object_name = 'destination_list'
+
+    def get_context_data(self, *args, **kwargs):
+        user_city = IndexView.get_ip(self)
+        if self.request.GET.get("city") is not None:
+            user_city['city'] = self.request.GET.get("city")
+        context = super(IndexDestinationView, self).get_context_data(*args, **kwargs)
+        context['location'] = user_city
+        context['city'] = City.objects.all()
+        return context
+
+    def get_queryset(self):
+        return Destination.objects.all()
+
+
+class BuatRencanaWisata(CreateView):
+    model = RencanaWisata
+
+

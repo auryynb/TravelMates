@@ -3,7 +3,8 @@
 <head>
     {% load static %}
     <link rel="stylesheet" href="{% static 'tours/style.css' %}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"/>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -14,6 +15,7 @@
     {% bootstrap_messages %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js">
     </script>
-    <title>Tourmates</title>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.js"></script>
+    <title>TravelMates</title>
+    <script src="{%  static 'tours/jquery.js' %}"></script>
 </head>
-<body>

@@ -21,6 +21,8 @@ urlpatterns = [
     path('', views.IndexView.as_view(), name="index"),
     path('destination/<int:pk>/', views.DetailView.as_view(), name='detail'),
     path("city/", views.IndexView.as_view(), name="search_results"),
+    path('plan', views.IndexPlanView.as_view(), name="plan_list"),
+    path('destination', views.IndexDestinationView.as_view(), name="destination_list"),
+    path('plan/<int:pk>/', views.DetailPlanView.as_view(), name="detail_plan"),
+
 ]
-
-
