@@ -7,7 +7,8 @@ from .models import City, Destination, Image, ImageAlbum, RencanaWisata
 from django.db.models import Q, Case, When, Value, BooleanField
 from django import forms
 from django.http import HttpResponse
-
+import logging
+logger = logging.getLogger(__name__)
 
 
 # Create your views here.
