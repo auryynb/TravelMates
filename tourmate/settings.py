@@ -14,6 +14,7 @@ from pathlib import Path
 import django_heroku
 import django
 from django.utils.encoding import smart_str
+
 django.utils.encoding.smart_text = smart_str
 # django_heroku.settings(locals())
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'jquery',
     'whitenoise.runserver_nostatic',
+    'storages'
 
 ]
 
@@ -97,9 +99,9 @@ DATABASES = {
     }
 }
 import dj_database_url
+
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -172,7 +174,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 LOGGING = {
     'version': 1,
@@ -189,11 +191,29 @@ LOGGING = {
     },
     # A logger for WARNING which has a handler called 'file'. A logger can have multiple handler
     'loggers': {
-       # notice the blank '', Usually you would put built in loggers like django or root here based on your needs
+        # notice the blank '', Usually you would put built in loggers like django or root here based on your needs
         '': {
-            'handlers': ['file'], #notice how file variable is called in handler which has been defined above
+            'handlers': ['file'],  # notice how file variable is called in handler which has been defined above
             'level': 'WARNING',
             'propagate': True,
         },
     },
 }
+
+# S3 Bucket Configurations
+
+AWS_ACCESS_KEY_ID = 'AKIAUZNT5ZO6MOVUR3RY'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'dealinbucket'
+AWS_S3_FILE_OVERWRITE = False
+
+AWS_DEFAULT_ACL = None
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_S3_REGION_NAME = "us-east-1"
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+AWS_S3_ADDRESSING_STYLE = "virtual"
+
+AWS_LOCATION = 'static'
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)

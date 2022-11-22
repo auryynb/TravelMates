@@ -55,3 +55,66 @@ Not Found: /js/jquery.js
 Not Found: /js/jquery.js
 Not Found: /favicon.ico
 Not Found: /js/jquery.js
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 50, in get_queryset
+    user_city = self.get_ip()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 26, in get_ip
+    city = g.city(ip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\contrib\gis\geoip2\base.py", line 181, in city
+    return City(self._city.city(enc_query))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 150, in city
+    return cast(City, self._model_for(geoip2.models.City, "City", ip_address))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 253, in _model_for
+    (record, prefix_len) = self._get(types, ip_address)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 240, in _get
+    raise geoip2.errors.AddressNotFoundError(
+geoip2.errors.AddressNotFoundError: The address 127.0.0.1 is not in the database.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 50, in get_queryset
+    user_city = self.get_ip()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 26, in get_ip
+    city = g.city(ip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\contrib\gis\geoip2\base.py", line 181, in city
+    return City(self._city.city(enc_query))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 150, in city
+    return cast(City, self._model_for(geoip2.models.City, "City", ip_address))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 253, in _model_for
+    (record, prefix_len) = self._get(types, ip_address)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 240, in _get
+    raise geoip2.errors.AddressNotFoundError(
+geoip2.errors.AddressNotFoundError: The address 127.0.0.1 is not in the database.
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
