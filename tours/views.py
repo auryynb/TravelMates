@@ -23,8 +23,8 @@ class IndexView(generic.ListView):
         else:
             ip = self.request.META.get('REMOTE_ADDR')
         g = GeoIP2()
-        # city = g.city(ip)
-        city = g.city('103.165.157.4')
+        city = g.city(ip)
+        # city = g.city('103.165.157.4')
         return city
 
     def get_city_list(self):
