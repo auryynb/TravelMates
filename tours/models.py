@@ -1,6 +1,5 @@
 from datetime import datetime, date
 from django.db import models
-from tinymce.models import HTMLField
 
 
 class City(models.Model):
@@ -54,7 +53,7 @@ class Destination(models.Model):
     panorama = models.CharField(max_length=1500, null=True)
     kecamatan = models.CharField(max_length=200, null=True)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
-    description = HTMLField()
+    description = models.CharField(max_length=22200, null=True)
     opening_hours = models.TimeField(null=True)
     closing_hours = models.TimeField(null=True)
     price_min = models.IntegerField()
