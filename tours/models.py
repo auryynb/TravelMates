@@ -118,7 +118,7 @@ class RencanaWisata(models.Model):
     title = models.CharField(max_length=200, null=True)
     theme = models.CharField(max_length=200, choices=THEME_CHOICE, null=True)
     budget = models.CharField(max_length=200)
-    cover = models.ImageField(null=True)
+    cover = models.ImageField(upload_to='images', null=True)
     city_start = models.ForeignKey(City, on_delete=models.CASCADE)
     city_dest = models.ForeignKey(City, related_name='city_dest', on_delete=models.CASCADE)
     days = models.IntegerField()
