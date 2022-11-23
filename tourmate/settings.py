@@ -174,7 +174,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 LOGGING = {
     'version': 1,
@@ -201,19 +201,19 @@ LOGGING = {
 }
 
 # S3 Bucket Configurations
-
-AWS_ACCESS_KEY_ID = 'AKIAUZNT5ZO6MOVUR3RY'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'dealinbucket'
-AWS_S3_FILE_OVERWRITE = False
-
-AWS_DEFAULT_ACL = None
-
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_S3_REGION_NAME = "us-east-1"
-AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
-AWS_S3_ADDRESSING_STYLE = "virtual"
-
-AWS_LOCATION = 'static'
+#
+# AWS_ACCESS_KEY_ID = 'AKIAUZNT5ZO6MOVUR3RY'
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_STORAGE_BUCKET_NAME = 'dealinbucket'
+# AWS_S3_FILE_OVERWRITE = False
+#
+# AWS_DEFAULT_ACL = None
+#
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# AWS_S3_REGION_NAME = "us-east-1"
+# AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+# AWS_S3_ADDRESSING_STYLE = "virtual"
+#
+# AWS_LOCATION = 'static'
 # STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 # STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)

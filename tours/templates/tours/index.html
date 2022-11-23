@@ -127,7 +127,7 @@
                                 <div class="cardimg col">
                                     <a href="{% url 'detail' tour.id %}" class="text-decoration-none text-dark">
                                         <div class=" card" style="width: 18rem; height: 20rem; border-radius: 20px">
-                                            <img src="https://dealinbucket.s3.amazonaws.com/static/{{ tour.image_path }}" class=" card-img-top "
+                                            <img src="{{ tour.image_path.url }}" class=" card-img-top "
                                                  style="height: 200px; border-radius: 10px"
                                                  alt="">
                                             <div class="card-cont card-body">
