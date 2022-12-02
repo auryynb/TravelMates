@@ -10,11 +10,17 @@
                 <h1 class="img-over-text">Destinasi Wisata</h1>
                 <p>Jelajahi destinasi menarik di Indonesia</p>
             </div>
-            <div class="form-floating mb-3 d-flex align-center justify-content-center"
-                 style="color: black !important; margin-top: 60px; width: 60%;  ">
-                <input type="text" class="form-control border-none" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput"><span class="material-symbols-outlined">search</span> &nbsp;Cari destinasi, kota, atau kategori</label>
-            </div>
+            <form method="get" action="{% url 'search_destination_results' %}" style="width: 100%;
+    display: flex;
+    justify-content: center;">
+                <div class="form-floating mb-3 d-flex align-center justify-content-center"
+                     style="color: black !important; margin-top: 60px; width: 60%;  ">
+                    <input type="text" class="form-control border-none" name="cari_destinasi" id="floatingInput"
+                           placeholder="name@example.com" minlength="4">
+                    <label for="floatingInput"><span class="material-symbols-outlined">search</span> &nbsp;Cari
+                        destinasi, kota, atau kategori</label>
+                </div>
+            </form>
         </div>
 </div>
 
@@ -32,7 +38,6 @@
                             <h6 class="card-title text-truncate">{{ tour.name }}</h6>
                             <p class="card-text text-truncate">{{ tour.city.city }}</p>
                             <p class="card-text text-truncate">{{ tour.categories }}</p>
-
                         </div>
                     </div>
                 </a>

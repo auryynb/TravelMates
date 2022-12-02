@@ -16,6 +16,11 @@ class City(models.Model):
 
 
 class ImageAlbum(models.Model):
+    name = models.CharField(max_length=255, default='Album ')
+
+    def __str__(self):
+        return str(self.name)
+
     def default(self):
         return self.images.filter(default=True).first()
 

@@ -1,10 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% load static %}
+{% load humanize %}
+{% include "tours/layout/header.html" %}
+
+<div class="head" style="background-image: url('{{ rencanawisata.cover.url }}')">
+    <div class="img2">
+        <div class="img-over-text">
+            <h1 class="text-header">{{ rencanawisata.title }}    </h1>
+            <h6><span
+                    class="material-symbols-outlined">location_on</span>
+                &nbsp;{{ rencanawisata.city_dest }}
+            </h6>
+        </div>
+    </div>
+    <nav class="detail navbar navbar-expand-lg " style="height: 78px;">
+    {% include "tours/layout/navbar.html" %}
+</div>
+
+{%  for key,value in plan.items %}
+    {{ forloop.counter }}
+{% endfor %}
+{##}
+{#{% for d in plan.day %}#}
+{#    {{ d }}#}
+{#{% endfor %}#}
+{#<br>#}
+{#{% for d in plan.start_time %}#}
+{#    {{ d.time }}#}
+{#{% endfor %}#}
+{#<br>#}
+{#{% for d in plan.end_time %}#}
+{#    {{ d.time }}#}
+{#{% endfor %}#}
+
+<br><br>
+<br><br>
+<br><br>
+{% for destinasi in destinasi  %}
+{{ destinasi }}
+{% endfor %}
+
+{{ rencanawisata }}
 
 </body>
 </html>

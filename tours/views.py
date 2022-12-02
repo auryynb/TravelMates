@@ -1,3 +1,4 @@
+from datetime import *
 from django.shortcuts import render
 from django.views import generic
 from django.views.generic.edit import CreateView
@@ -8,6 +9,7 @@ from django.db.models import Q, Case, When, Value, BooleanField
 from django import forms
 from django.http import HttpResponse
 import logging
+
 logger = logging.getLogger(__name__)
 
 
@@ -17,13 +19,13 @@ class IndexView(generic.ListView):
     context_object_name = 'tour_list'
 
     def get_ip(self):
-        user_ip = self.request.META.get('HTTP_X_FORWARDED_FOR')
+        user_ip = self.request.META.get('HTTP_X_FORWARDED_FOR')  # real ip user
         if user_ip:
             ip = user_ip.split(',')[0]
         else:
-            ip = self.request.META.get('REMOTE_ADDR')
-        g = GeoIP2()
-        # city = g.city(ip)
+            ip = self.request.META.get('REMOTE_ADDR')  # ip komputer client
+        g = GeoIP2()  # manggil library
+        # city = g.city(ip) #cari kota based on ip
         city = g.city('103.165.157.4')
         return city
 
@@ -59,7 +61,6 @@ class IndexView(generic.ListView):
         return list(self.divide_chunks(g))
 
 
-# g = Destination.objects.filter(Q(city__city='Malang') | Q(city__related_city='Malang')).annotate(relevancy=Case(When(city__city='Malang', then=Value(True)),output_field=BooleanField())).order_by('-relevancy')
 class DetailView(generic.DetailView):
     model = Destination
     template_name = 'tours/detail.html'
@@ -90,7 +91,46 @@ class IndexPlanView(generic.ListView):
 
 class DetailPlanView(generic.DetailView):
     model = RencanaWisata
-    template_name = 'tours/detail.html'
+    template_name = 'tours/plan_detail.html'
+
+    def getRencana(self, **kwargs):
+        rencana = RencanaWisata.objects.filter(pk=self.kwargs.get('pk')).first()
+        return rencana
+
+    def rencanaDestinasi(self):
+        rencana = self.getRencana()
+        current_time = datetime.strptime(rencana.transportasi_pergi.get().arrive_time.strftime("%H:%M:%S"), '%H:%M:%S')
+        # using dict
+        destinasi = list(rencana.destination.all())
+        destination_plan = {'day': [], 'start_time': [], 'end_time': [], 'destination': []}
+        start_time = current_time
+        end_time = start_time + timedelta(hours=4)
+        days = 1
+        while days <= rencana.days:
+            while start_time.hour <= 19:
+                end_time = start_time + timedelta(hours=4)
+                res = list(filter(lambda x: x.opening_hours < start_time.time() and x.closing_hours > end_time.time(),
+                                  destinasi))
+                if res:
+                    des = res[0]
+                    destination_plan['destination'].append(des)
+                    destinasi.remove(des)
+                    destination_plan['day'].append(days)
+                    destination_plan['start_time'].append(start_time)
+                    destination_plan['end_time'].append(end_time)
+                    start_time = end_time
+                else:
+                    break
+            days += 1
+            start_time = datetime(1990, 1, 1, 8, 0)
+        return destination_plan
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['rencana'] = RencanaWisata.objects.filter(pk=self.kwargs.get('pk')).first()
+        context['plan'] = self.rencanaDestinasi()
+        context['destinasi'] = self.rencanaDestinasi()['destination']
+        return context
 
 
 class IndexDestinationView(generic.ListView):
@@ -106,11 +146,20 @@ class IndexDestinationView(generic.ListView):
         context['city'] = City.objects.all()
         return context
 
+    def cari_destinasi(self):
+        keyword = self.request.GET.get("cari_destinasi")
+        if keyword:
+            return Destination.objects.filter(name__istartswith=keyword)
+        else:
+            return
+
     def get_queryset(self):
-        return Destination.objects.all()
+        filterDest = self.cari_destinasi()
+        if filterDest:
+            return filterDest
+        else:
+            return Destination.objects.all()
 
 
 class BuatRencanaWisata(CreateView):
     model = RencanaWisata
-
-

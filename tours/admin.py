@@ -32,9 +32,7 @@ class AccomodationAdmin(admin.ModelAdmin):
 
 
 class RencanaWisataAdmin(admin.ModelAdmin):
-
     model = RencanaWisata
-
     filter_horizontal = ['destination']
     extra = 1
 

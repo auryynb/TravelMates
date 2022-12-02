@@ -400,3 +400,24 @@ a {
     border-radius: 10px;
 
 }
+
+.subs-content{
+    text-align: center;
+}
+
+.subs-content h3{
+    margin-top: 4%;
+    font-weight: 600;
+}
+
+.subs-content p{
+}
+
+footer{
+    border: 2px solid red;
+}
+
+.footer-row{
+    border: 2px solid red;
+}
+

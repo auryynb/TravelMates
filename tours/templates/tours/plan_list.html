@@ -102,6 +102,7 @@
         <div class="container text-center">
             <div class="row row-cols-4">
                 {% for plan in plan_list %}
+                    <a href="{% url 'detail_plan' plan.id %}" class="text-decoration-none text-dark">
                     <div class="col">
                         <div class="card">
                             <img src="{{ plan.cover.url }}" class=" card-img-top "
@@ -111,6 +112,7 @@
                             <h5>Rp{{ plan.total_cost | intcomma}}</h5>
                         </div>
                     </div>
+                    </a>
                 {% endfor %}
                 {% for plan in plan_list %}
                     <div class="col">
