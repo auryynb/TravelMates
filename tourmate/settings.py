@@ -50,8 +50,6 @@ INSTALLED_APPS = [
     'jquery',
     'whitenoise.runserver_nostatic',
     'storages',
-    'multiforloop'
-
 ]
 
 MIDDLEWARE = [
