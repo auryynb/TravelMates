@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-5pec(yljj9gdmgk#u0w4jic27-=+z$hi7v19d1#op9i#lg6b4a
 DEBUG = True
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'testserver', '10.200.19.217','http://travelmates.us-east-1.elasticbeanstalk.com/']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'testserver', '10.200.19.217','travelmates.us-east-1.elasticbeanstalk.com']
 
 # Application definition
 
