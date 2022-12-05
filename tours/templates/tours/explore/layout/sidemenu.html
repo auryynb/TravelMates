@@ -1,0 +1,28 @@
+<div class="menu-explore py-5" style="text-align: left; width: 56%; position: sticky">
+                <h5 class="pb-3">MENU</h5>
+                <div class="menu-explore-item {% if request.path == '/explore' %}active{% endif %}">
+                    <a href="/explore"> <span class="material-symbols-outlined">article</span>Feed</a>
+                </div>
+                <div class="menu-explore-item">
+                    <a><span class="material-symbols-outlined">plagiarism</span>Search</a>
+                </div>
+            </div>
+            {% if user.is_authenticated %}
+                <div class="menu-explore" style="text-align: left; width: 56%; position: sticky">
+                    <h5 class="pb-3">PERSONAL</h5>
+                    <div class="menu-explore-item {% if 'posts' in request.path %}active{% endif %}">
+                        <a href="posts/{{ request.user.username }}/"> <span class="material-symbols-outlined">remember_me</span>My
+                            Post</a>
+                    </div>
+                    <div class="menu-explore-item {% if request.path == '/profile' %}active{% endif %}">
+                        <a href="/profile"><span class="material-symbols-outlined">account_box</span>Profile</a>
+                    </div>
+                </div>
+                {% else %}
+                <div class="menu-explore" style="text-align: left; width: 56%; position: sticky">
+                <h5 class="pb-3">PERSONAL</h5>
+                <a href="/login?next={{request.path}}">
+                    <button class="btn" style="background-color: #42A8C3; color: white; font-weight: 600">Login</button>
+                </a>
+                </div>
+            {% endif %}

@@ -1,0 +1,74 @@
+{% include "tours/layout/header.html" %}
+{% load static %}
+<nav class="auth navbar navbar-expand-lg sticky-top" style="height: 65px; background: transparent">
+
+
+    {% include "tours/layout/navbar.html" %}
+</nav>
+<div class="register">
+    <body>
+
+    <img class="bg" src="{% static 'tours/assets/auth/backgorund.png' %}">
+    <img class="e1" src="{% static 'tours/assets/auth/Ellipse 45.png' %}">
+    <img class="e2" src="{% static 'tours/assets/auth/Ellipse 47.png' %}">
+    <img class="e3" src="{% static 'tours/assets/auth/Ellipse 48.png' %}">
+    <img class="e4" src="{% static 'tours/assets/auth/Ellipse 49.png' %}">
+    <img class="e5" src="{% static 'tours/assets/auth/Ellipse 66.png' %}">
+    <img class="e6" src="{% static 'tours/assets/auth/Ellipse 67.png' %}">
+    <img src="{% static 'tours/assets/auth/wave.png' %}" class="wave">
+
+    <div class="container">
+        <div class="txt-q">
+            <h1 class="title-banner">Rencanakan <br> Liburanmu Bersama <br> Kami</h1>
+        </div>
+        <div class="login-container">
+            <form action="" method="post" >
+            {% csrf_token %}
+                <h2>Register Your <br> Account</h2>
+                <div class="input-div mail">
+                    <div class="div">
+                        <h5>Email</h5>
+                        <input type="text" name="email" class="input" placeholder="Enter your Email">
+                        {% for err in form.email.errors %}
+                            <small class="text-danger">{{ err }}</small>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="input-div mail">
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" name="username" class="input" placeholder="Enter your Username">
+                    {% for err in form.username.errors %}
+                            <small class="text-danger">{{ err }}</small>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="div">
+                        <h5>Password  </h5>
+                        <input type="password" name="password1" autocomplete="new-password" class="input"
+                               placeholder="Enter your Password" >
+                        {% for err in form.password1.errors %}
+                            <small class="text-danger">{{ err }}</small>
+                        {% endfor %}
+                    </div>
+
+                </div>
+
+                <div class="input-div pass">
+                    <div class="div">
+                        <h5>Confirm Password</h5>
+                        <input type="password" name="password2" autocomplete="new-password" class="input"
+                               placeholder="Enter your Confirm Password">
+                        {% for err in form.password2.errors %}
+                            <small class="text-danger">{{ err }}</small>
+                        {% endfor %}
+                    </div>
+                </div>
+                <input type="submit" class="btn-register" value="Sign Up">
+            </form>
+        </div>
+    </div>
+    </body>
+</div>
+</html>

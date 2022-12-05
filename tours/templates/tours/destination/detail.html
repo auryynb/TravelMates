@@ -1,0 +1,82 @@
+{% load static %}
+{% load humanize %}
+{% include "tours/layout/header.html" %}
+<div class="head" style="background-image: url('{{ destination.image_path.url }}')">
+    <div class="img2">
+        <div class="img-over-text">
+            <h1 class="text-header">{{ destination.name }}    </h1>
+            <h6><span
+                    class="material-symbols-outlined">location_on</span>
+                &nbsp;{{ destination.kecamatan }}, {{ destination.city }}
+            </h6>
+        </div>
+    </div>
+    <nav class="detail navbar navbar-expand-lg " style="height: 78px;">
+    {% include "tours/layout/navbar.html" %}
+    </nav>
+</div>
+<nav class="navbar navbar-expand-lg bg-white sticky-top mb-5" style="border-bottom: 1px solid rgba(91,95,98,0.18)">
+    <div class="container-fluid">
+        <a href="{{request.META.HTTP_REFERER|escape}}"> <span class="material-symbols-outlined">arrow_back</span></a>
+        <a class="sec-brand navbar-brand" style="margin: 0 7%" href="#">{{ destination.name }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav px-5" style="margin-left:42%">
+                <a class="sec-nav nav-link active" aria-current="page" href="#sejarah">Informasi</a>
+                <a class="sec-nav nav-link" href="#galeri">Galeri</a>
+                <a class="sec-nav nav-link" href="#">Ulasan</a>
+                <a class="sec-nav nav-link" href="#panorama">Panorama</a>
+            </div>
+        </div>
+    </div>
+</nav>
+{% block content %}
+
+    <div class="container-lg px-3 py-2 mt-5">
+        <div class="row" style=" gap: 4%">
+            <div class="col-sm-7">
+                <div class="detail-city">
+                </div>
+                <h5 style="font-weight: 700;" id="sejarah">Deskripsi</h5>
+                <div class="detail-desc">
+                    <p>{{ destination.description | safe }}</p>
+                    <img src="{{ destination.image_path.url }}" width="100%">
+                </div>
+                <div class="detail-desc">
+                <h5 style="font-weight: 700; margin-top: 40px" id="panorama">Panorama</h5>
+                    {{ destination.panorama | safe }}
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="content-side" style="margin-top: 20px">
+                    <h5 style="font-weight: 700">Detail Lokasi</h5>
+                    <h6>Jam Operasional : {{ destination.opening_hours }} - {{ destination.closing_hours }}</h6>
+                    <h6>Harga Tiket : Rp{{ destination.price_min | intcomma }} -
+                        Rp{{ destination.price_max | intcomma }}</h6>
+                    {{ destination.maps | safe }}
+                    <p style="font-size: 13px; margin-top: 10px">{{ destination.address }}</p>
+                </div>
+
+            </div>
+        </div>
+        <h5 style="font-weight: 700" id="galeri">Galeri</h5>
+
+
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            {% for image in image %}
+                <div class="col-6">
+                    <img src="{{ image.image.url }}" class="img-fluid" style="width: 100%; height: 300px" alt="">
+
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock content %}
+</body>
+</html>

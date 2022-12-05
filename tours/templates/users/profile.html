@@ -1,0 +1,96 @@
+{% load static %}
+{% include "tours/layout/header.html" %}
+<main>
+    <nav class="navbar navbar-expand-lg" style="height: 65px">
+
+
+        {% include "tours/layout/navbar.html" %}
+
+
+    </nav>
+    <div class="row">
+        <div class="col-sm-3 d-flex justify-content-center sticky-top" style="height: 100%; flex-wrap: wrap">
+            {% include "tours/explore/layout/sidemenu.html" %}
+        </div>
+        <div class="col-sm-6 pt-5">
+            <div class="head-post mb-2" style="font-weight: 600; text-align: left; padding: 0 !important;">
+                <h4>
+                    <button class="no-decoration" onclick="history.back()"><span class="material-symbols-outlined"
+                                                                                 style="margin-right: 12px">
+arrow_back
+</span></button>
+                    Profil
+                </h4>
+            </div>
+            <div class="mb-3 d-flex justify-content-left" style="flex-wrap: wrap">
+                <img class="mb-3" src="https://dealinbucket.s3.amazonaws.com/static/{{ form.profile_pic.value }}"
+                     width="121" height="121">
+                <label for="id_image_path" class="form-label"></label>
+                <input class="form-control" type="file" id="id_image_path" name="profile_pic">
+                {% for err in form.profile_pic.errors %}
+                    <small class="text-danger">{{ err }}</small>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="mb-3">
+                        <label for="id_title" class="form-label">Nama Depan</label>
+                        <input type="text" class="form-control" name="first_name" id="id_first_name"
+                               placeholder="Masukkan nama" required
+                               value="{% if form.first_name.value %}{{ form.first_name.value }} {% endif %}">
+                        {% for err in form.first_name.errors %}
+                            <small class="text-danger">{{ err }}</small>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="mb-3">
+                        <label for="id_title" class="form-label">Nama Belakang</label>
+                        <input type="text" class="form-control" name="last_name" id="id_last_name"
+                               placeholder="Masukkan nama" required
+                               value="{% if form.last_name.value %}{{ form.last_name.value }} {% endif %}">
+                        {% for err in form.last_name.errors %}
+                            <small class="text-danger">{{ err }}</small>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mb-3">
+                <label for="id_title" class="form-label">Username</label>
+                <input type="text" class="form-control" name="username" id="id_username"
+                       placeholder="Masukkan judul" required
+                       value="{% if form.username.value %}{{ form.username.value }} {% endif %}">
+                {% for err in form.username.errors %}
+                    <small class="text-danger">{{ err }}</small>
+                {% endfor %}
+            </div>
+            <div class="mb-3">
+                <label for="id_title" class="form-label">Alamat Email</label>
+                <input type="text" class="form-control" name="email" id="id_email"
+                       placeholder="Masukkan judul" required
+                       value="{% if form.email.value %}{{ form.email.value }} {% endif %}">
+                {% for err in form.email.errors %}
+                    <small class="text-danger">{{ err }}</small>
+                {% endfor %}
+            </div>
+        <input type="submit" class="btn btn-post" value="Simpan" style="background-color: #4cd0f5">
+        </div>
+        <div class="col-sm-3 sticky-top" style="    z-index: 1 !important;padding-left: 3%; height: 100%">
+            <div class="menu-explore py-5 " style="text-align: left; width: 56%; position: sticky">
+                <div class="explore-button mb-5">
+                    <a href="/addPost">
+                        <button class="add-explore">
+                            <span class="material-symbols-outlined">add</span>New Post
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>

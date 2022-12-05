@@ -1,10 +1,14 @@
 {% load static %}
 {% include "tours/layout/header.html" %}
-<div class="head"
-     style="background : linear-gradient(180deg, #E2F6FC 14.25%, rgba(255, 255, 255, 0) 100%); height: 43rem">
-    <nav class="navbar navbar-expand-lg sticky-top" style="height: 78px;">
+<main>
+    <nav class="navbar navbar-expand-lg" style="height: 65px; background: #e2f6fc">
+
 
         {% include "tours/layout/navbar.html" %}
+
+    </nav>
+    <div class="head"
+         style="background : linear-gradient(180deg, #E2F6FC 14.25%, rgba(255, 255, 255, 0) 100%); height: 100%">
 
         <div class="hstack mx-5 gap-1">
             <h7 class="pl-5" style="font-size: 14px">Lokasi &ensp;:</h7>
@@ -30,7 +34,7 @@
                             information and inspiration from us.</p>
                     </div>
 
-                    <div class="plan-banner mt-4">
+                    <div class="plan-banner my-4">
                         <div class="row">
                             <div class="col">
                                 <div class="form-floating">
@@ -66,16 +70,17 @@
                 </div>
             </div>
         </div>
-</div>
+    </div>
 
-{% block content %}
+
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-sm" style="flex: 0 0 0% !important;">
                 <div class="menu-home d-flex">
                     <a href="/destination">
                         <div class="menu-det">
-                            <img src="{% static 'tours/assets/img_8.png' %}" class="img-fluid" height="50" width=50">
+                            <img src="{% static 'tours/assets/img_8.png' %}" class="img-fluid" height="50"
+                                 width=50">
 
                             <h6>Destinasi</h6>
                             <p>Temukan destinasi pilihan terbaik untuk kamu kunjungi</p>
@@ -87,7 +92,8 @@
                 <div class="menu-home d-flex">
                     <a href="/plan">
                         <div class="menu-det">
-                            <img src="{% static 'tours/assets/img_9.png' %}" class="img-fluid" height="50" width=50">
+                            <img src="{% static 'tours/assets/img_9.png' %}" class="img-fluid" height="50"
+                                 width=50">
 
                             <h6>Rencana Perjalanan</h6>
                             <p>Rencanakan liburanmu bersama kami dengan mudah dan cepat</p>
@@ -98,9 +104,10 @@
             <div class="col-sm" style="flex: 0 0 0% !important;">
 
                 <div class="menu-home d-flex">
-                    <a href="/">
+                    <a href="/explore">
                         <div class="menu-det">
-                            <img src="{% static 'tours/assets/img_10.png' %}" class="img-fluid" height="50" width=50">
+                            <img src="{% static 'tours/assets/img_10.png' %}" class="img-fluid" height="50"
+                                 width=50">
 
                             <h6>Eksplorasi</h6>
                             <p>Berbagi dan jelajahi tempat-tempat baru untuk dikunjungi</p>
@@ -112,72 +119,135 @@
             </div>
         </div>
     </div>
-    <div class="container-lg px-5 py-2 mt-5">
-    <div class="recom">
-        <h3 class="recom pt-2">Wisata Sekitarmu</h3>
-        <p>Lihat tempat wisata yang sedang popouler di sekitarmu</p>
-    </div>
-    <div id="carouselExampleControls" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel"
-         data-bs-interval="20000">
-        <div class="carousel-inner">
-            {% for list in tour_list %}
-                <div class="carousel-item {% if forloop.counter0 %} {% else %} active {% endif %}">
-                    <div class="container">
-                        <div class="row">
-                            {% for tour in list %}
-                                <div class="cardimg col-sm-3">
-                                    <a href="{% url 'detail' tour.id %}" class="text-decoration-none text-dark">
-                                        <div class=" card" style="width: 18rem; height: 20rem; border-radius: 20px">
-                                            <img src="https://dealinbucket.s3.amazonaws.com/static/{{ tour.image_path }}"
-                                                 class=" card-img-top "
-                                                 style="height: 200px; border-radius: 10px"
-                                                 alt="">
-                                            <div class="card-cont card-body">
-                                                <h6 class="card-title text-truncate">{{ tour.name }}</h6>
-                                                <p class="card-text text-truncate">{{ tour.city.city }}</p>
-                                                <p class="card-text text-truncate">{{ tour.categories }}</p>
+    <div class="container-xxl py-2 mt-5">
+        <div class="recom">
+            <h3 class="recom pt-2">Wisata Sekitarmu</h3>
+            <p>Lihat tempat wisata yang sedang popouler di sekitarmu</p>
+        </div>
+        <div id="carouselExampleControls" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel"
+             data-bs-interval="20000">
+            <div class="carousel-inner">
+                {% for list in tour_list %}
+                    <div class="carousel-item {% if forloop.counter0 %} {% else %} active {% endif %}">
+                        <div class="container">
+                            <div class="row row-cols-auto">
+                                {% for tour in list %}
+                                    <div class="cardimg col-sm-3  py-3">
+                                        <a href="{% url 'detail' tour.id %}" class="text-decoration-none text-dark">
+                                            <div class=" card"
+                                                 style="width: 100%; height: 20rem; border-radius: 20px">
+                                                <img src="https://dealinbucket.s3.amazonaws.com/static/{{ tour.image_path }}"
+                                                     class="alph card-img-top "
+                                                     style="height: 200px; border-radius: 10px"
+                                                     alt="">
+                                                <div class="card-cont card-body">
+                                                    <h6 class="card-title text-truncate">{{ tour.name }}</h6>
+                                                    <p class="card-text text-truncate">{{ tour.city.city }}</p>
+                                                    <p class="card-text text-truncate">{{ tour.categories }}</p>
 
+                                                </div>
                                             </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            {% endfor %}
+                                        </a>
+                                    </div>
+                                {% endfor %}
+                            </div>
                         </div>
                     </div>
-                </div>
-            {% endfor %}
-        </div>
-        <button class="car-next carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-
-    </div>
-
-{% endblock content %}
-
-<div class="subs-footer d-flex align-center justify-content-center" style="height: 400px;margin-top: 80px">
-    <div class="subs-content" style="background-image: url('{% static 'tours/assets/img-sub.png' %}'); width: 100% ;
-            background-size: contain;
-            background-repeat: no-repeat;">
-        <h3> Berlangganan dengan kami</h3>
-        <p>Dapatkan berita terbaru, tempat wisata terpopuler, rencana wisata yang sesuai untukmu, dan hal-hal lainnya setiap minggu</p>
-        <div class="d-flex align-center justify-content-conter">
+                {% endfor %}
+            </div>
+            <button class="car-next carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
 
         </div>
-    </div>
-</div>
-<footer>
-    <div class="footer">
-        <div class="container text-center">
-            <div class="footer-row row">
-                <div class="col-sm-6">col-sm-6</div>
-                <div class="col-sm-3">col-sm-4</div>
-                <div class="col-sm-3">col-sm</div>
+
+
+        <div class="recom" style="margin-top: 100px ">
+            <h3 class="recom pt-2">Eksplorasi Petualangan</h3>
+            <p>Lihat dan temukan inspirasi dalam perjalan mereka </p>
+        </div>
+        <div class="container">
+            <div class="row row-cols-auto justify-content-center">
+                {% for posts in post %}
+                    <div class="cardimg col-sm-5 py-3">
+
+                        <div class="card py-2"
+                             style="width: 100%; height: 100%; border-radius: 10px;box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.06), 4px 4px 16px rgba(0, 0, 0, 0.06);">
+                            <div class="post-content" style=" ">
+                                <a> <img src="https://dealinbucket.s3.amazonaws.com/static/{{ posts.user.profile_pic }}"
+                                         height="24"
+                                         width="24"> &nbsp;{{ posts.user.username }} </a>
+                                <h4 class="card-title text-truncate">{{ posts.title }}</h4>
+                                <p class="pb-3">{{ posts.created_at }}</p>
+                                <img src="https://dealinbucket.s3.amazonaws.com/static/{{ posts.image_path }}"
+                                     class="card-img-top"
+                                     style="height: 350px; border-radius: 10px;"
+                                     alt="">
+                                <div class="post-par pt-4">
+                                    <p class="card-title">{{ posts.caption }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
         </div>
-    </div>
-</footer>
+
+        <div class="subs-footer d-flex align-center justify-content-center" style="height: 400px;margin-top: 80px">
+            <div class="subs-content"
+                 style="background-image: url('{% static 'tours/assets/img-sub.png' %}'); width: 80% ;
+                         background-size: contain;
+                         background-repeat: no-repeat;">
+                <h3> Berlangganan dengan kami</h3>
+                <div class="d-flex align-center justify-content-center">
+                    <p style="width: 60%; font-size: 13px">Dapatkan berita terbaru, tempat wisata terpopuler,
+                        rencana
+                        wisata
+                        yang sesuai untukmu, dan hal-hal lainnya
+                        setiap minggu</p>
+                </div>
+                <div class="d-flex justify-content-center align-center">
+                    <div class="form-floating mb-3"
+                         style="color: black !important; margin-top: 20px; width: 60%;  ">
+                        <input type="text" class="form-control border-none" name="cari_destinasi" id="floatingInput"
+                               placeholder="name@example.com" minlength="4">
+                        <label for="floatingInput">Masukkan alamat email</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>
+{#<footer>#}
+{#    <div class="footer">#}
+{#        <div class="container text-center">#}
+{#            <div class="footer-row row">#}
+{#                <div class="footer-col col-sm-6">#}
+{#                    <div class="left-foot d-flex align-center justify-content-center" style="flex-wrap: wrap">#}
+{#                        <a href="/" class="navbar-brand" style="    font-weight: bold;">#}
+{#                            <img src="{% static 'tours/assets/travel_logo.png' %}" alt="Logo" width="30" height="32"#}
+{#                                 class="d-inline-block align-text-top">#}
+{#                            TravelMates</a>#}
+{#                        <p style="width: 100%">#}
+{#                            Keliling Indonesia Bersama Kami#}
+{#                        </p>#}
+{##}
+{##}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="col-sm-3">#}
+{#                    <div class="left-foot d-flex align-center justify-content-center" style="flex-wrap: wrap">#}
+{##}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="col-sm-3">col-sm</div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#</footer>#}
+</div>
+{% include 'tours/layout/footer.html' %}
+
 </body>
 </html>

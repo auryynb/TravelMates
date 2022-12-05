@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-5pec(yljj9gdmgk#u0w4jic27-=+z$hi7v19d1#op9i#lg6b4a
 DEBUG = True
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'testserver']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'testserver', '10.200.19.217']
 
 # Application definition
 
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'jquery',
     'whitenoise.runserver_nostatic',
     'storages',
+    'fontawesomefree',
 ]
 
 MIDDLEWARE = [
@@ -119,7 +120,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+AUTH_USER_MODEL = 'tours.User'
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
@@ -213,3 +214,5 @@ AWS_LOCATION = 'static'
 AWS_DEFAULT_ACL = 'public-read'
 # STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 # STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'

@@ -1,0 +1,35 @@
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="height: 100%;
+    display: flex;
+    align-items: center;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Selamat datang kembali !</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <form action="/login?next={{request.path}}" method="post">
+                <div class="modal-body">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="id_username" class="col-form-label">Username :</label>
+                        <input type="text" name="username" class="form-control" id="id_username"
+                               placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="id_passsword" class="col-form-label">Password :</label>
+                        <input type="password" name="password" class="form-control" id="id_passsword"
+                               placeholder="Password">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="/register">
+                        <button type="button" class="btn btn-secondary">Registrasi</button>
+                    </a>
+                    <input type="submit" class="btn btn-primary" value="Masuk">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

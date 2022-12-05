@@ -1,0 +1,61 @@
+{% include "tours/layout/header.html" %}
+<nav class="navbar navbar-expand-lg sticky-top" style="height: 78px;">
+    {% include "tours/layout/navbar.html" %}
+</nav>
+<main class="d-flex justify-content-center" style="align-items: center; height: 550px;">
+    <div class="  d-flex justify-content-center align-center"
+         style="flex-wrap: wrap;  background-color: #f6f6f6; width: 60%; border-radius: 20px">
+        <div class="head-post" style="padding-left: 40px !important;">
+            <div class="row">
+                <div class="col-2" style="text-align: left">
+                    <button class="no-decoration" onclick="history.back()"><span class="material-symbols-outlined" style="margin-right: 12px">
+arrow_back
+</span></button> </div>
+                <div class="col-8">{% if test is 0 %}
+                    <h4>Create Post</h4>
+                {% else %}
+                    <h4>Update Post</h4>
+                {% endif %}</div>
+            </div>
+
+        </div>
+        <div class="input-post" style="width: 100%;">
+            <form class="add-post" action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {#                <div>#}
+                {#                    #}
+                {#                    {{ form.image_path }}                    </div>#}
+                <div class="mb-3">
+                    <label for="id_image_path" class="form-label"></label>
+                    <input class="form-control" type="file" id="id_image_path" name="image_path">
+                    {% for err in form.image_path.errors %}
+                        <small class="text-danger">{{ err }}</small>
+                    {% endfor %}
+                </div>
+                <div class="mb-3">
+                    <label for="id_title" class="form-label">Judul</label>
+                    <input type="text" class="form-control" name="title" id="id_title"
+                           placeholder="Masukkan judul" required
+                           value="{% if form.title.value %}{{ form.title.value }} {% endif %}">
+                    {% for err in form.title.errors %}
+                        <small class="text-danger">{{ err }}</small>
+                    {% endfor %}
+                </div>
+                <div class="mb-3">
+
+                    <textarea class="form-control" name="caption" id="id_caption" rows="5"
+                              placeholder="Tulis caption">{% if form.caption.value %}{{ form.caption.value }}{% endif %}</textarea>
+                    {% for err in form.caption.errors %}
+                        <small class="text-danger">{{ err }}</small>
+                    {% endfor %}
+                </div>
+                <input type="submit" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+
+</main>
+
+
+</body>
+</html>

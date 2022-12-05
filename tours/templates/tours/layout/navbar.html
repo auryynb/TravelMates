@@ -1,6 +1,6 @@
 
 
-    {% load static %}
+{% load static %}
 {#    {%  if 'destination' in request.path %}#}
 {#        <nav class="detail navbar navbar-expand-lg " style="height: 78px;">#}
 {#        {% elif 'plan' in request.path %}#}
@@ -8,36 +8,84 @@
 {#        {% else %}#}
 {#    {% endif %}#}
 
-        <div class="container-fluid px-5" >
-            <a href="/" class="navbar-brand" style="font-weight: bold">
-                <img src="{% static 'tours/assets/travel_logo.png' %}" alt="Logo" width="30" height="32"
-                     class="d-inline-block align-text-top">
-                TravelMates</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<div class="container-fluid px-5">
+    <a href="/" class="navbar-brand" style="font-weight: bold">
+        <img src="{% static 'tours/assets/travel_logo.png' %}" alt="Logo" width="30" height="32"
+             class="d-inline-block align-text-top">
+        TravelMates</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-3">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/destination">Destination</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/explore">Explore</a>
+            </li>
+        </ul>
+    </div>
+
+    {% if user.is_authenticated is False %}
+        <div class="dropdown-center btn-group">
+            <button type="button" class="btn dropdown-toggle-split" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                <span style="font-size: 36px; margin-right: 14px"
+                      class="material-symbols-outlined">account_circle</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/destination">Destination</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Explore</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="d-flex">
-
-                <a href="/plan"><button type="button" class="btn-plan-nav">Let's Plan !</button></a>
-
-            </div>
+            <ul class="dropdown-menu">
+                <li>
+                    <button type="button" class="login-nav-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Login
+                    </button>
+                </li>
+                <li><a class="dropdown-item" href="/register">Register</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"><span class="material-symbols-outlined">travel_explore</span> Explore</a></li>
+            </ul>
         </div>
-    </nav>
+    {% else %}
+        <div class="dropdown-center btn-group">
+            <button type="button" class="btn dropdown-toggle-split" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                <img src="{% static 'tours/assets/man.png' %}" height="40" width="40" style="margin-right: 14px">
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="hello-navbar dropdown-item" href="/profile">Hello, {{ user.username }}</a></li>
+                <li><a class="dropdown-item" style="font-weight: 500; padding-bottom: 1rem !important;" href="/addPost"><span
+                        class="material-symbols-outlined">add_circle</span>
+                    Unggah Post</a></li>
+                <li><a class="dropdown-item" href="posts/{{ request.user.username }}/">
+                    <span class="material-symbols-outlined">demography</span> Lihat Post</a></li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <span class="material-symbols-outlined">travel_explore</span> Buat Rencana</a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="/logout">Log out</a></li>
+            </ul>
+        </div>
+    {% endif %}
+    <div class="d-flex">
+
+        <a href="/plan" class="plan-nav">
+{#            <button type="button" class="btn-plan-nav">Let's Plan !</button>#}
+            <span>Let's Plan</span>
+            <div class="liquid"></div>
+        </a>
+    </div>
+
+
+</div>
+
+
+{% include 'tours/layout/login-floating.html' %}
+

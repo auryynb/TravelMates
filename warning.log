@@ -1692,3 +1692,3161 @@ Not Found: /js/jquery.js
 Not Found: /js/jquery.js
 Not Found: /js/jquery.js
 Not Found: /js/jquery.js
+Invalid HTTP_HOST header: '10.200.19.217:8000'. You may need to add '10.200.19.217' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\http\request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.200.19.217:8000'. You may need to add '10.200.19.217' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '10.200.19.217:8000'. You may need to add '10.200.19.217' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\http\request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.200.19.217:8000'. You may need to add '10.200.19.217' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /admin
+Not Found: /favicon.ico
+Not Found: /admin
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/13/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/8/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/13/js/jquery.js
+Not Found: /admin
+Not Found: /destination/13/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/19/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/17/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/23/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/24/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/8/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /accounts/profile/
+Not Found: /logout/
+Internal Server Error: /logout
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: LoginUI.html
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: LoginUI.html
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 184, in get
+    return render(request, self.template_name, {'form': form})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: RegisterUI.html
+Not Found: /accounts/profile/
+Not Found: /accounts/profile/
+Internal Server Error: /logout
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /login/
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 184, in get
+    return render(request, self.template_name, {'form': form})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: RegisterUI.html
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'user.username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 968, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 54: 'user.username', expected 'endif'. Did you forget to register or load this tag?
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/19/js/jquery.js
+Not Found: /destination/19/js/jquery.js
+Not Found: /destination/19/js/jquery.js
+Not Found: /destination/19/js/jquery.js
+Not Found: /favicon.ico
+Not Found: /destination/19/js/jquery.js
+Not Found: /favicon.ico
+Not Found: /destination/19/js/jquery.js
+Not Found: /destination/19/js/jquery.js
+Not Found: /destination/19/js/jquery.js
+Not Found: /destination/19/js/jquery.js
+Not Found: /favicon.ico
+Not Found: /destination/19/js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /destination/12/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/18/js/jquery.js
+Not Found: /destination/18/js/jquery.js
+Not Found: /destination/18/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/25/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/27/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /destination/17/js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Internal Server Error: /addPost
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 205, in get
+    return render(request, self.template_name, {'form': form, 'test': len(kwargs)})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: AddPostUI.html
+Not Found: /addPost/
+Internal Server Error: /addPost
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 205, in get
+    return render(request, self.template_name, {'form': form, 'test': len(kwargs)})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: AddPostUI.html
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Method Not Allowed (POST): /
+Method Not Allowed: /
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Method Not Allowed (POST): /
+Method Not Allowed: /
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 489, in parse
+    command = token.contents.split()[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 491, in parse
+    raise self.error(token, "Empty block tag on line %d" % token.lineno)
+django.template.exceptions.TemplateSyntaxError: Empty block tag on line 217
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Method Not Allowed (POST): /
+Method Not Allowed: /
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Forbidden (CSRF token missing.): /addPost
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Forbidden (CSRF token missing.): /addPost
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /posts/admin
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /favicon.ico
+Not Found: /js/jquery.js
+Not Found: /js/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /destination/12/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 49, in get_context_data
+    context['post'] = Post.objects.a
+AttributeError: 'Manager' object has no attribute 'a'
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/2/tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader_tags.py", line 54, in render
+    result = self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['destination/(?P<pk>[0-9]+)/\\Z']
+Not Found: /tours/jquery.js
+Not Found: /destination/1/
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /destination/22/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/admin
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/admin
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/admin
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 49, in get_context_data
+    context['post'] = Post.objects.all().order_by(-'created_at')[:16]
+TypeError: bad operand type for unary -: 'str'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 49, in get_context_data
+    context['post'] = Post.objects.all().order_by('-created_at')[:16]
+TypeError: bad operand type for unary -: 'str'
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /explore
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 36, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: IndexPostView is missing a QuerySet. Define IndexPostView.model, IndexPostView.queryset, or override IndexPostView.get_queryset().
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /explore
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'User' object is not iterable
+Internal Server Error: /explore
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'User' object is not iterable
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /city/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/22/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/8/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/27/tours/jquery.js
+Not Found: /destination/27/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/12/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /explore
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 296, in get_context_data
+    context['user_list'] = User.objects.all()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 196, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't available; 'auth.User' has been swapped for 'tours.User'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "tours_destination" does not exist
+LINE 1: ...arta' THEN true ELSE NULL END AS "relevancy" FROM "tours_des...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 68, in get_queryset
+    if not g:
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 408, in __bool__
+    self._fetch_all()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "tours_destination" does not exist
+LINE 1: ...arta' THEN true ELSE NULL END AS "relevancy" FROM "tours_des...
+                                                             ^
+
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 190, in post
+    if form.is_valid():
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\forms\forms.py", line 437, in full_clean
+    self._clean_fields()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\forms\forms.py", line 452, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\forms.py", line 52, in clean_username
+    if User.objects.filter(username=username).exists():
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 196, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't available; 'auth.User' has been swapped for 'tours.User'
+Not Found: /tours/jquery.js
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 189, in post
+    if form.is_valid():
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\forms\forms.py", line 437, in full_clean
+    self._clean_fields()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\forms\forms.py", line 452, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\forms.py", line 52, in clean_username
+    if User.objects.filter(username=username).exists():
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 196, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't available; 'auth.User' has been swapped for 'tours.User'
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/26/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /addPost
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /city/tours/jquery.js
+Not Found: /city/tours/jquery.js
+Not Found: /city/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /city/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /city/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /city/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/1
+Not Found: /posts/1/
+Not Found: /posts/admin
+Not Found: /posts/richo
+Not Found: /posts/richo/
+Not Found: /posts/richo
+Not Found: /posts/richo/
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /update
+Internal Server Error: /explore
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'postUpdate' with arguments '('richo',)' not found. 1 pattern(s) tried: ['posts/(?P<username>[^/]+)/(?P<id>[0-9]+)/update\\Z']
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/
+Not Found: /posts/richo/
+Not Found: /tours/jquery.js
+Not Found: /posts/auryn
+Not Found: /posts/richo
+Not Found: /posts/richo
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Internal Server Error: /addPost
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 207, in get
+    return render(request, self.template_name, {'form': form, 'test': len(kwargs)})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tours/AddPostUI.html
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn/
+Not Found: /posts/Auryn/
+Not Found: /posts/Auryn/
+Not Found: /posts/Auryn/
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /city/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/22/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/
+Not Found: /posts/richo/
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/posts/richo/2/
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /2/
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /richo/2/
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/2/
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2
+Internal Server Error: /posts/richo/2/update
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 253, in get
+    return render(request, self.template_name, {'form': form, 'test': len(kwargs)})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: AddPostUI.html
+Internal Server Error: /posts/richo/2/update
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 253, in get
+    return render(request, self.template_name, {'form': form, 'test': len(kwargs)})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tours/AddPostUI.html
+Internal Server Error: /posts/richo/2/update
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 253, in get
+    return render(request, self.template_name, {'form': form, 'test': len(kwargs)})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tours/AddPostUI.html
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /posts/richo/2/2/update
+Not Found: /posts/richo/2/posts/richo/
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/posts/richo/
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/1/tours/jquery.js
+Not Found: /posts/richo/1/tours/jquery.js
+Internal Server Error: /posts/richo/1/update
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 253, in get
+    return render(request, self.template_name, {'form': form, 'test': len(kwargs)})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 24: 'if'. Looking for one of: elif, else, endif.
+Not Found: /posts/richo/1/tours/jquery.js
+Not Found: /posts/richo/1/tours/jquery.js
+Not Found: /posts/richo/1/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/2/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/4/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /addPost
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "tours_post_pkey"
+DETAIL:  Key (id)=(1) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 214, in post
+    obj.save()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "tours_post_pkey"
+DETAIL:  Key (id)=(1) already exists.
+
+Not Found: /tours/jquery.js
+Internal Server Error: /addPost
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "tours_post_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 214, in post
+    obj.save()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "tours_post_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+Internal Server Error: /addPost
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "tours_post_pkey"
+DETAIL:  Key (id)=(3) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 214, in post
+    obj.save()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "tours_post_pkey"
+DETAIL:  Key (id)=(3) already exists.
+
+Internal Server Error: /addPost
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "tours_post_pkey"
+DETAIL:  Key (id)=(4) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 214, in post
+    obj.save()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "tours_post_pkey"
+DETAIL:  Key (id)=(4) already exists.
+
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /images/user_profile/default12998.png
+Not Found: /images/user_profile/default12998.png
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/richo/1/tours/jquery.js
+Not Found: /posts/richo/1/tours/jquery.js
+Not Found: /posts/richo/1/tours/jquery.js
+Internal Server Error: /posts/richo/1/update
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 250, in get
+    if request.user.userame != p.user:
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'userame'
+Not Found: /posts/richo/1/update
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/richo/5/update
+Not Found: /posts/richo/2/update
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 186, in get
+    return render(request, self.template_name, {'form': form})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tours/RegisterUI.html
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 186, in get
+    return render(request, self.template_name, {'form': form})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tours/RegisterUI.html
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 186, in get
+    return render(request, self.template_name, {'form': form})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tours/explore/RegisterUI.html
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 186, in get
+    return render(request, self.template_name, {'form': form})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tours/explore/RegisterUI.html
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Internal Server Error: /register
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 186, in get
+    return render(request, self.template_name, {'form': form})
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static'. Did you forget to register or load this tag?
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/26/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/13/tours/jquery.js
+Not Found: /destination/13/tours/jquery.js
+Not Found: /destination/13/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /destination/13/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/8/tours/jquery.js
+Not Found: /destination/8/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 18: 'static'. Did you forget to register or load this tag?
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /login.html
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/tours/jquery.js
+Not Found: /destination/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/26/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /destination/27/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/22/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /destination/10/tours/jquery.js
+Not Found: /destination/10/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/22/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/17/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /posts/Auryn/6/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views.py", line 313, in get
+    if kwargs['username'] != request.user.username:
+KeyError: 'username'
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/posts/Auryn/
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/posts/Auryn/
+Not Found: /profile/posts/Auryn/
+Not Found: /profile/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /profile/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/explore
+Not Found: /posts/Auryn/
+Not Found: /posts/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/
+Not Found: /tours/jquery.js
+Not Found: /posts/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/tours/jquery.js
+Not Found: /posts/tours/jquery.js
+Not Found: /posts/tours/jquery.js
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/explore
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/profile
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn
+Not Found: /posts/Auryn
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/5/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /images/user_profile/default12998.png
+Not Found: /tours/jquery.js
+Not Found: /images/user_profile/default12998.png
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /profile/
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 39: 'static'. Did you forget to register or load this tag?
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'static'. Did you forget to register or load this tag?
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Method Not Allowed (GET): /posts/richo/2/delete
+Method Not Allowed: /posts/richo/2/delete
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Internal Server Error: /explore
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+Internal Server Error: /explore
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/posts/richo/
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /posts/Auryn/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /posts/richo/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /favicon.ico
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /destination/8/tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js
+Not Found: /tours/jquery.js

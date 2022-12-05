@@ -1,8 +1,14 @@
 from django.contrib import admin
-from .models import City, Destination, Transportation, Accomodation, RencanaWisata, ImageAlbum, Image
+from django.contrib.auth.admin import UserAdmin
+
+from .models import City, Destination, Transportation, Accomodation, RencanaWisata, ImageAlbum, Image, Post, User
 from tinymce.widgets import TinyMCE
 from django.db import models
 # Register your models here.
+
+
+class CustomUserAdmin(UserAdmin):
+    model = User
 
 
 class DestinationInline(admin.StackedInline):
@@ -37,9 +43,15 @@ class RencanaWisataAdmin(admin.ModelAdmin):
     extra = 1
 
 
+class PostAdmin(admin.ModelAdmin):
+    model = Post
+
+
 admin.site.register(City, CityAdmin)
 admin.site.register(Transportation, TransportationAdmin)
 admin.site.register(Accomodation, AccomodationAdmin)
 admin.site.register(RencanaWisata, RencanaWisataAdmin)
 admin.site.register(ImageAlbum, ImageAlbumAdmin)
 admin.site.register(Image, ImageAdmin)
+admin.site.register(Post, PostAdmin)
+admin.site.register(User, CustomUserAdmin)

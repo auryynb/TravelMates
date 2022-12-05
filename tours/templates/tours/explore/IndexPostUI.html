@@ -1,0 +1,59 @@
+{% load static %}
+{% include "tours/layout/header.html" %}
+<main>
+    <nav class="navbar navbar-expand-lg" style="height: 65px">
+
+
+        {% include "tours/layout/navbar.html" %}
+
+
+    </nav>
+    <div class="row">
+        <div class="col-sm-3 d-flex justify-content-center sticky-top" style="height: 100%; flex-wrap: wrap">
+        {% include "tours/explore/layout/sidemenu.html" %}
+        </div>
+        <div class="col-sm-6 pt-5">
+            {% for posts in object_list %}
+
+
+                <div class="card py-3 mb-5"
+                     style="width: 100%; border-radius: 10px;box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.06), 4px 4px 16px rgba(0, 0, 0, 0.06);">
+                    <div class="post-content" style=" ">
+                        <a> <img src="https://dealinbucket.s3.amazonaws.com/static/{{ posts.user.profile_pic }}" height="24"
+                                 width="24"> &nbsp;{{ posts.user.username }} </a>
+
+                        <h4 class="card-title text-truncate">{{ posts.title }}</h4>
+                        <p class="pb-3">{{ posts.created_at }}</p>
+
+
+                        <img src="https://dealinbucket.s3.amazonaws.com/static/{{ posts.image_path }}"
+                             class="card-img-top"
+                             style="height: 350px; border-radius: 10px; object-fit: cover"
+                             alt="">
+                        <div class="post-par pt-4">
+                            <p class="card-title">{{ posts.caption }}</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            {% endfor %}
+        </div>
+        <div class="col-sm-3 sticky-top" style="    z-index: 1 !important;padding-left: 3%; height: 100%">
+            <div class="menu-explore py-5 " style="text-align: left; width: 56%; position: sticky">
+                {% include 'tours/explore/layout/addpost.html' %}
+
+                <h5 class="pb-3">SUGGESTIONS</h5>
+                {% for user in user_list %}
+                    <div class="menu-explore-item">
+                        <a> <img src="https://dealinbucket.s3.amazonaws.com/static/{{ user.profile_pic }}" height="24"
+                                 width="24"> &nbsp;{{ user.username }} </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>

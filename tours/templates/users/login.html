@@ -1,0 +1,50 @@
+{% include "tours/layout/header.html" %}
+{% load static %}
+<nav class="auth navbar navbar-expand-lg sticky-top" style="height: 65px; background: transparent">
+
+
+    {% include "tours/layout/navbar.html" %}
+</nav>
+<div class="register">
+<body>
+    <img class="bg" src="{% static 'tours/assets/auth/backgorund.png' %}">
+    <img class="e1" src="{% static 'tours/assets/auth/Ellipse 45.png' %}">
+    <img class="e2" src="{% static 'tours/assets/auth/Ellipse 47.png' %}">
+    <img class="e3" src="{% static 'tours/assets/auth/Ellipse 48.png' %}">
+    <img class="e4" src="{% static 'tours/assets/auth/Ellipse 49.png' %}">
+    <img class="e5" src="{% static 'tours/assets/auth/Ellipse 66.png' %}">
+    <img class="e6" src="{% static 'tours/assets/auth/Ellipse 67.png' %}">
+    <img src="{% static 'tours/assets/auth/wave.png' %}" class="wave">
+    <div class="container">
+        <div class="txt-q">
+            <h1>Plan Your <br> Destination & Be <br> Happy</h1>
+        </div>
+        <div class="login-container">
+            <form action="" method="post">
+            {% csrf_token %}
+                <h2>Log In Your <br> Account</h2>
+
+                <div class="input-div mail">
+                <small style="color: red">{{ form.non_field_errors }}</small>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" name="username" class="input" placeholder="Enter your Username">
+                 </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" name="password" autocomplete="new-password" class="input"
+                               placeholder="Enter your Password">
+                 </div>
+                </div>
+                <a href="#">Forgot Password?</a>
+                <input type="submit" class="btn" value="Sign In">
+            </form>
+
+
+        </div>
+    </div>
+</body>
+</div>
+</html>
