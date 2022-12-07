@@ -26,11 +26,12 @@ urlpatterns = [
     path("city/", views.IndexView.as_view(), name="search_results"),
     path('plan', views.IndexPlanView.as_view(), name="plan_list"),
     path('destination', views.IndexDestinationView.as_view(), name="destination_list"),
-    path('plan/<int:pk>/', views.DetailPlanView.as_view(), name="detail_plan"),
+    path('plan/create', views.RencanaWisataController.as_view(), name="create_plan"),
     path("destination/", views.IndexDestinationView.as_view(), name="search_destination_results"),
     path('register', views.RegisterController.as_view(), name='register'),
     path('login', auth_view.LoginView.as_view(template_name='users/login.html', redirect_authenticated_user=True),
          name='login'),
+
     # path('logins', views.LoginView, name="logins"),
     path('logout', auth_view.LogoutView.as_view(template_name='tours/index.html'), name='logout'),
     path('addPost', CreatePostController.as_view(), name='addPost'),

@@ -2,7 +2,7 @@
 {% include "tours/layout/header.html" %}
 <div class="head-plan"
      style="background-image: url('{% static 'tours/assets/waterfall.jpg' %}');    background-position: bottom; ">
-    <nav class="plan navbar navbar-expand-lg " style="height: 78px;">
+    <nav class="plan navbar navbar-expand-lg " style="height: 78px">
 
         {% include "tours/layout/navbar.html" %}
 
@@ -27,7 +27,38 @@
 </div>
 
 <div class="container">
+<div class="category" style="margin: 12% 7%">
+        <h3>Kategori</h3>
+        <p>Di sini banyak destinasi menarik untuk dikunjungi, tapi jangan bingung — semuanya sudah dikelompokkan
+            berdasarkan kategori.</p>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="{% static 'tours/assets/gunung.jpg' %}">
+                    <h6>Gunung</h6>
+                </div>
+                <div class="col">
+                    <img src="{% static 'tours/assets/pantai.jpg' %}">
+                    <h6>Pantai</h6>
+                </div>
+                <div class="col"><img src="{% static 'tours/assets/bermain.jpg' %}">
+                    <h6>Taman Bermain</h6>
+                </div>
+                <div class="col"><img src="{% static 'tours/assets/sejarah.jpg' %}">
+                    <h6>Sejarah</h6>
+                </div>
+                <div class="col"><img src="{% static 'tours/assets/kota.jpg' %}">
+                    <h6>Kota</h6>
+                </div>
+                <div class="col"><img src="{% static 'tours/assets/gunung.jpg' %}">
+                    <h6>Mixed</h6>
+                </div>
 
+            </div>
+        </div>
+
+
+    </div>
     <div class="row row-cols-auto p-3">
         {% for tour in destination_list %}
             <div class="cardimg col py-3">

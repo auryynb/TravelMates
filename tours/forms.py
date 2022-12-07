@@ -4,7 +4,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.forms import ModelForm
 from tinymce.widgets import TinyMCE
 
-from .models import Destination, Post, User
+from .models import Destinasi, Postingan, User
 
 
 class TinyMCEWidget(TinyMCE):
@@ -20,7 +20,7 @@ class PostForm(forms.ModelForm):
     )
 
     class Meta:
-        model = Destination
+        model = Destinasi
         fields = '__all__'
 
 
@@ -58,7 +58,7 @@ class CreatePostForm(ModelForm):
     caption = forms.CharField(widget=forms.Textarea(attrs={"rows": "5"}))
 
     class Meta:
-        model = Post
+        model = Postingan
         fields = ['image_path', 'caption', 'title']
 
 

@@ -2,44 +2,193 @@
 {% load humanize %}
 {% include "tours/layout/header.html" %}
 
-<div class="head" style="background-image: url('{{ rencanawisata.cover.url }}')">
-    <div class="img2">
-        <div class="img-over-text">
-            <h1 class="text-header">{{ rencanawisata.title }}    </h1>
-            <h6><span
-                    class="material-symbols-outlined">location_on</span>
-                &nbsp;{{ rencanawisata.city_dest }}
-            </h6>
-        </div>
-    </div>
-    <nav class="detail navbar navbar-expand-lg " style="height: 78px;">
+{#<div class="head">#}
+{#    <div class="img2">#}
+{#        <div class="img-over-text">#}
+{#            <h1 class="text-header">{{ rencanawisata.title }}    </h1>#}
+{#            <h6>#}
+{#                &nbsp;{{ rencanawisata.city_dest }}#}
+{#            </h6>#}
+{#        </div>#}
+{#    </div>#}
+<nav class="navbar navbar-expand-lg " style="height: 78px;">
     {% include "tours/layout/navbar.html" %}
+</nav>
+
+<body>
+<div class="rencana d-flex justify-content-center" style="flex-wrap: wrap;">
+    <div class="rencana-destinasi p-3" style=" width: 70%">
+        <div class="text-center my-5">
+            <h3 class="plan-title">Rencana Perjalanan Anda</h3>
+        </div>
+        <div class="container text-center mb-4">
+            <div class="row">
+                <div class="col">
+                    <div class="form-floating">
+                        <small>Kota Asal</small>
+                        <p>{{ rencana.city_start }}</p>
+                    </div>
+                </div>
+                <div class="vr" style="width: 1px !important; padding: 0px !important;"></div>
+                <div class="col">
+                    <div class="form-floating">
+                        <div class="form-floating">
+                            <small>Kota Tujuan</small>
+                            <p>{{ rencana.city_dest }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vr" style="width: 1px !important; padding: 0px !important;"></div>
+                <div class="col">
+                    <div class="form-floating">
+                        <div class="form-floating">
+                            <small>Budget</small>
+                            <p>{{ rencana.budget }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vr" style="width: 1px !important; padding: 0px !important;"></div>
+                <div class="col">
+                    <div class="form-floating">
+                        <div class="form-floating">
+                            <small>Durasi</small>
+                            <p>{{ rencana.days }} hari</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% if rencana.id %}
+            {% if rencana.transportasi_pulang %}
+                <h4 class="p-4" style="width: 100%">Transportasi</h4>
+                <div class="row" style="margin-left: 10px">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ rencana.transportasi_pergi.name }}</h5>
+                                <p class="card-text">Berangkat : {{ rencana.transportasi_pergi.city_from }}
+                                    | {{ rencana.transportasi_pergi.depart_time }} - Tiba
+                                    : {{ rencana.transportasi_pergi.city_to }}
+                                    | {{ rencana.transportasi_pergi.arrive_time }}</p>
+                                <p class="card-text"><small
+                                        class="text-muted">Rp{{ rencana.transportasi_pergi.price_per_person }}/orang</small>
+                                </p>
+                                <a style="color: white !important;" class="btn btn-primary">Pergi</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ rencana.transportasi_pulang.name }}</h5>
+                                <p class="card-text">Berangkat : {{ rencana.transportasi_pulang.city_from }}
+                                    | {{ rencana.transportasi_pulang.depart_time }} - Tiba
+                                    : {{ rencana.transportasi_pulang.city_to }}
+                                    | {{ rencana.transportasi_pulang.arrive_time }}</p>
+                                <p class="card-text"><small
+                                        class="text-muted">Rp{{ rencana.transportasi_pulang.price_per_person }}/orang</small>
+                                </p>
+                                <a style="color: white !important;" class="btn btn-primary">Pulang</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+            <h4 class="p-4" style="width: 100%">Akomodasi</h4>
+            <div class="card mb-3" style="max-width: 640px; margin-left: 30px">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://dealinbucket.s3.amazonaws.com/static/{{ rencana.akomodasi.image_path }}"
+                             class="img-fluid rounded-start"
+                             style="height: 160px !important; width: 100% !important;; object-fit: cover">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ rencana.akomodasi.accomodation_name }}</h5>
+                            {#                            <p class="card-text">{{ destinasi.destinasi.description }}</p>#}
+                            <span class="card-text d-inline-block text-truncate"
+                                  style="max-width: 100%;">{{ rencana.akomodasi.address }}
+</span>
+                            <p class="card-text"><small class="text-muted">Rp{{ rencana.akomodasi.price_per_night }} /
+                                malam</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h4 class="p-4" style="width: 100%">Destinasi</h4>
+            <div class="container" style="padding-left: 30px">
+                <div class="row">
+                    {% for destinasi in destinasi %}
+                        <div class="col-sm-3">
+                            {#                    {% for destinasi in destinasi %}#}
+                            <div class="time-list mb-3 d-flex justify-content-center"
+                                 style="flex-wrap:wrap; height: 160px; align-items: center; flex-wrap: wrap">
+                                <p style="width: 100%">Day {{ destinasi.day }}</p>
+                                <h5>{{ destinasi.start_time }} - {{ destinasi.end_time }}</h5>
+                            </div>
+                            {#                    {% endfor %}#}
+                        </div>
+
+                        <div class="col-sm-9">
+                            {#                    {% for destinasi in destinasi %}#}
+                            <div class="card mb-3" style="max-width: 640px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://dealinbucket.s3.amazonaws.com/static/{{ destinasi.destinasi.image_path }}"
+                                             class="img-fluid rounded-start"
+                                             style="height: 160px !important; width: 100% !important;; object-fit: cover">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">{{ destinasi.destinasi.name }}</h5>
+                                            {#                            <p class="card-text">{{ destinasi.destinasi.description }}</p>#}
+                                            <span class="card-text d-inline-block text-truncate"
+                                                  style="max-width: 100%;">  {{ destinasi.destinasi.description }}</span>
+                                            <p class="card-text"><small
+                                                    class="text-muted">Rp{{ destinasi.destinasi.price_max }}</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {#                    {% endfor %}#}
+
+                        </div>
+                        <hr style="width: 90%; height: 1px">
+                    {% endfor %}
+                </div>
+
+                <div class="plan-button d-flex" style="justify-content: end; padding-right:7%; flex-wrap: wrap; margin-right: 30px">
+                    <h5 class="m-2" style="width: 100%; text-align: end">Total cost : {{ rencana.real_cost }}</h5>
+
+                    {% if user.is_authenticated %}
+                        <button type="button" class="btn btn-warning m-2">Edit Rencana</button>
+                        <form method="post" action="">
+                            {% csrf_token %}
+                            <input type="text" hidden name="rencana_id" value="{{ rencana.id }}">
+                            <input type="text" name="rencana_title" value="">
+
+                            <button type="submit" class="btn btn-success m-2">Simpan Rencana</button>
+                        </form>
+                    {% endif %}
+                </div>
+
+            </div>
+        {% else %}
+            <div class="text-center">
+                <h6 class="text-danger mt-3">Maaf, kami tidak dapat menemukan rencana yang sesuai untuk anda</h6>
+                <button onclick="history.back()" type="button" class="btn btn-primary mt-3">Ubah Rencana</button>
+
+            </div>
+        {% endif %}
+
+    </div>
 </div>
-
-{%  for key,value in plan.items %}
-    {{ forloop.counter }}
-{% endfor %}
-{##}
-{#{% for d in plan.day %}#}
-{#    {{ d }}#}
-{#{% endfor %}#}
-{#<br>#}
-{#{% for d in plan.start_time %}#}
-{#    {{ d.time }}#}
-{#{% endfor %}#}
-{#<br>#}
-{#{% for d in plan.end_time %}#}
-{#    {{ d.time }}#}
-{#{% endfor %}#}
-
-<br><br>
-<br><br>
-<br><br>
-{% for destinasi in destinasi  %}
-{{ destinasi }}
-{% endfor %}
-
-{{ rencanawisata }}
-
 </body>
 </html>

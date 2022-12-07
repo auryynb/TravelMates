@@ -16,16 +16,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-3">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Beranda</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/destination">Destination</a>
+                <a class="nav-link" href="/destination">Destinasi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Cities</a>
+                <a class="nav-link" href="/plan">Rencana</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/explore">Explore</a>
+                <a class="nav-link" href="/explore">Eksplorasi</a>
             </li>
         </ul>
     </div>
@@ -39,15 +39,15 @@
             </button>
             <ul class="dropdown-menu">
                 <li>
-                    <button type="button" class="login-nav-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Login
+                    <button type="button" class="login-nav-btn dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Masuk
                     </button>
                 </li>
-                <li><a class="dropdown-item" href="/register">Register</a></li>
+                <li><a class="dropdown-item" href="/register">Daftar</a></li>
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#"><span class="material-symbols-outlined">travel_explore</span> Explore</a></li>
+                <li><a class="dropdown-item" href="#"><span class="material-symbols-outlined">travel_explore</span> Eksplorasi</a></li>
             </ul>
         </div>
     {% else %}
@@ -57,7 +57,7 @@
                 <img src="{% static 'tours/assets/man.png' %}" height="40" width="40" style="margin-right: 14px">
             </button>
             <ul class="dropdown-menu">
-                <li><a class="hello-navbar dropdown-item" href="/profile">Hello, {{ user.username }}</a></li>
+                <li><a class="hello-navbar dropdown-item" href="/profile">Halo, {{ user.username }}</a></li>
                 <li><a class="dropdown-item" style="font-weight: 500; padding-bottom: 1rem !important;" href="/addPost"><span
                         class="material-symbols-outlined">add_circle</span>
                     Unggah Post</a></li>
@@ -70,7 +70,7 @@
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="/logout">Log out</a></li>
+                <li><a class="dropdown-item" href="/logout">Keluar</a></li>
             </ul>
         </div>
     {% endif %}

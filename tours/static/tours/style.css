@@ -200,7 +200,7 @@ a {
     color: white !important;
 }
 
-.plan * {
+.plan .container-fluid *{
     color: white !important;
 }
 
@@ -972,4 +972,17 @@ footer .footer-copyright p{
     border: none;
     color: white;
     font-weight: 600;
+}
+
+.rencana-destinasi h4{
+    font-weight: 600;
+    font-size: 25px;
+}
+.plan-title{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.plan .modal{
+    color: black !important;
 }

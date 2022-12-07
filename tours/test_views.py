@@ -1,5 +1,5 @@
 from unittest import TestCase
-from tours.models import Destination
+from tours.models import Destinasi
 from django.test.client import RequestFactory
 
 
