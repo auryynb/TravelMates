@@ -581,7 +581,7 @@ footer{
 
 .footer-grid{
     border-top: 0.1px solid rgba(141, 141, 141, 0.52);
-    background: rgba(255, 255, 255, 0.435) url(footer-bg.png) no-repeat right top;
+    background: rgba(255, 255, 255, 0.435) no-repeat right top;
     background-size: contain;
     display: grid;
     grid-template-columns: 35% 17.5% 17.5% 30%;
@@ -767,7 +767,6 @@ footer .footer-copyright p{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 7rem;
     padding: 0 2rem;
-    background: linear-gradient(-45deg, );
 }
 
 .register .img {
