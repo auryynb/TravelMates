@@ -16,7 +16,7 @@ class IndexView(generic.ListView):
         else:
             ip = self.request.META.get('REMOTE_ADDR')  # ip komputer client
         g = GeoIP2()  # manggil library
-        if(ip == '127.0.0.1') :
+        if ip == '127.0.0.1':
             city = g.city('103.165.157.4')
         else:
             city = g.city(ip) #cari kota based on ip
