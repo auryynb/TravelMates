@@ -6,19 +6,7 @@ from django.contrib.auth.models import User, AbstractUser
 # Create your models here.
 class User(AbstractUser):
     profile_pic = models.ImageField(upload_to='images/user_profile', default='images/user_profile/default12998.png')
-
-
-class Postingan(models.Model):
-    id = models.AutoField(primary_key=True)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    title = models.CharField(max_length=200, default='Judul')
-    image_path = models.ImageField(upload_to='images/post')
-    caption = models.CharField(max_length=500)
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return self.title
+    tanggal_lahir = models.DateField(null=True)
 
 
 class Kota(models.Model):
@@ -83,6 +71,7 @@ class Destinasi(models.Model):
     price_max = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True, null=True)
     updated_at = models.DateTimeField(auto_now=True, null=True)
+    rating = models.FloatField(null=True)
 
     class Meta:
         ordering = ['name']
@@ -151,3 +140,18 @@ class RencanaWisataDestinasi(models.Model):
     day = models.IntegerField()
     start_time = models.TimeField()
     end_time = models.TimeField(null=True)
+
+
+class Postingan(models.Model):
+    id = models.AutoField(primary_key=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    title = models.CharField(max_length=200, default='Judul')
+    image_path = models.ImageField(upload_to='images/post')
+    caption = models.CharField(max_length=500)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    destinasi = models.ForeignKey(Destinasi, on_delete=models.CASCADE, null=True)
+
+    def __str__(self):
+        return self.title
+

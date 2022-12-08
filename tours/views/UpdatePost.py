@@ -14,7 +14,7 @@ class PostUpdateController(View):
 
     def get(self, request, *args, **kwargs):
         p = Postingan.objects.get(id=kwargs['id'])
-        if kwargs['username'] != request.user.username:
+        if p.user != request.user:
             raise Http404
         form = CreatePostForm(instance=p)
         return render(request, self.template_name, {'form': form, 'test': len(kwargs)})

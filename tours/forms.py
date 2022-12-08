@@ -38,7 +38,7 @@ class PostForm(forms.ModelForm):
 class CreateUserForm(UserCreationForm):
     class Meta:
         model = User
-        fields = ['username', 'email', 'password1', 'password2']
+        fields = ['username', 'email', 'password1', 'password2', 'tanggal_lahir']
 
     def clean_email(self):
         email = self.cleaned_data.get('email')
@@ -59,7 +59,7 @@ class CreatePostForm(ModelForm):
 
     class Meta:
         model = Postingan
-        fields = ['image_path', 'caption', 'title']
+        fields = ['image_path', 'caption', 'title', 'destinasi']
 
 
 class UserProfileForm(ModelForm):

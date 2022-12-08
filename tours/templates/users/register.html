@@ -36,6 +36,15 @@
                 </div>
                 <div class="input-div mail">
                     <div class="div">
+                        <h5>Email</h5>
+                        <input type="date" name="tanggal_lahir" class="input" placeholder="">
+                        {% for err in form.tanggal_lahir.errors %}
+                            <small class="text-danger">{{ err }}</small>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="input-div mail">
+                    <div class="div">
                         <h5>Username</h5>
                         <input type="text" name="username" class="input" placeholder="Enter your Username">
                     {% for err in form.username.errors %}

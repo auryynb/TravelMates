@@ -22,6 +22,6 @@ class CreatePostController(View):
             obj = form.save(commit=False)
             obj.user = User.objects.get(pk=request.user.id)
             obj.save()
-            messages.success(request, f'Post was successfully added')
+            messages.success(request, f'Pstingan Berhasil Ditambahkan')
             return redirect('/posts/' + request.user.username + '/')
         return render(request, self.template_name, {'form': form})

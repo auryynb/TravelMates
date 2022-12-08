@@ -1,6 +1,5 @@
 from .UserProfile import *
 from .RencanaWisata import *
-from .Login import *
 from .PostsController import *
 from .CreatePost import *
 from .RegisterController import *

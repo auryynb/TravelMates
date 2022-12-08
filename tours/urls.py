@@ -30,7 +30,6 @@ urlpatterns = [
     path('register', views.RegisterController.as_view(), name='register'),
     path('login', auth_view.LoginView.as_view(template_name='users/login.html', redirect_authenticated_user=True),
          name='login'),
-
     # path('logins', views.LoginView, name="logins"),
     path('logout', auth_view.LogoutView.as_view(template_name='tours/index.html'), name='logout'),
     path('addPost', views.CreatePostController.as_view(), name='addPost'),
