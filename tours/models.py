@@ -25,8 +25,7 @@ class Kota(models.Model):
     city = models.CharField(max_length=50, primary_key=True)
     province = models.CharField(max_length=50, null=True)
     related_city = models.CharField(max_length=50, blank=True)
-    image = models.ImageField(upload_to='image', null=True)
-    description = models.CharField(max_length=1500, null=True)
+    image = models.ImageField(upload_to='images/city', null=True)
     created_at = models.DateTimeField(auto_now_add=True, null=True)
     updated_at = models.DateTimeField(auto_now=True, null=True)
 

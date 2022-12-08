@@ -986,3 +986,7 @@ footer .footer-copyright p{
 .plan .modal{
     color: black !important;
 }
+
+.head .rencana *{
+    color: white;
+}

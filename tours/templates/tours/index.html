@@ -35,7 +35,8 @@
                     </div>
 
                     <div class="plan-banner my-4">
-                        <div class="row">
+                        <div class="row" style="box-shadow: 0px 7px 29px rgb(85 85 92 / 20%);
+    border-radius: 10px;">
                             <div class="col">
                                 <div class="form-floating">
                                     <select class="plan-form form-select align-baseline" id="floatingSelect"
@@ -56,11 +57,13 @@
                                 </div>
                             </div>
                             <div class="col-2 d-flex align-center">
+                                <a  href="/plan" style="display: contents;">
                                 <button class="button-plan">
                                     <img src="{% static 'tours/assets/img_2.png' %}" class="img-fluid" height="58"
                                          width="58">
 
                                 </button>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -136,7 +139,7 @@
                                         <a href="{% url 'detail' tour.id %}" class="text-decoration-none text-dark">
                                             <div class=" card"
                                                  style="width: 100%; height: 20rem; border-radius: 20px">
-                                                <img src="https://dealinbucket.s3.amazonaws.com/static/{{ tour.image_path }}"
+                                                <img src="{{ tour.image_path.url }}"
                                                      class="alph card-img-top "
                                                      style="height: 200px; border-radius: 10px"
                                                      alt="">

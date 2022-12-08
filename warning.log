@@ -8198,3 +8198,642 @@ Not Found: /image/bali.jpg
 Not Found: /image/content--20210113071032.jfif
 Not Found: /image/bali.jpg
 Not Found: /image/content--20210113071032.jfif
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Internal Server Error: /destination
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 44, in get_queryset
+    return list(IndexView.divide_chunks(g))
+TypeError: divide_chunks() missing 1 required positional argument: 'obj'
+Internal Server Error: /destination
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 44, in get_queryset
+    return list(IndexView.divide_chunks(self,g))
+TypeError: divide_chunks() missing 1 required positional argument: 'obj'
+Internal Server Error: /destination
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['destinasi/(?P<pk>[0-9]+)/\\Z']
+Internal Server Error: /destination
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' with arguments '('',)' not found. 1 pattern(s) tried: ['destinasi/(?P<pk>[0-9]+)/\\Z']
+Internal Server Error: /destination/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 31, in get_queryset
+    filterDest = self.search_by_name()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 24, in search_by_name
+    return Destinasi.objects.filter(name__search=keyword)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1297, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1341, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'search' for CharField or join on the field not permitted.
+Internal Server Error: /destination/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 20, in get_context_data
+    context['searched'] = filtered[0]
+TypeError: 'bool' object is not subscriptable
+Internal Server Error: /destination/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 20, in get_context_data
+    context['searched'] = filtered[0]
+TypeError: 'int' object is not subscriptable
+Internal Server Error: /destination/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 20, in get_context_data
+    context['searched'] = filtered[0]
+TypeError: 'int' object is not subscriptable
+Internal Server Error: /destination/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 16, in get_context_data
+    filtered = self.search_by_name()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 28, in search_by_name
+    return status
+NameError: name 'status' is not defined
+Internal Server Error: /destination/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 16, in get_context_data
+    filtered = self.search_by_name()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 28, in search_by_name
+    return 'Tidak ditemukan'
+NameError: name 'status' is not defined
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Internal Server Error: /destination
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexDestinasi.py", line 36, in get_queryset
+    user_city = IndexView.get_ip(self)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\IndexController.py", line 19, in get_ip
+    city = g.city(ip) #cari kota based on ip
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\contrib\gis\geoip2\base.py", line 181, in city
+    return City(self._city.city(enc_query))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 150, in city
+    return cast(City, self._model_for(geoip2.models.City, "City", ip_address))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 253, in _model_for
+    (record, prefix_len) = self._get(types, ip_address)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\geoip2\database.py", line 240, in _get
+    raise geoip2.errors.AddressNotFoundError(
+geoip2.errors.AddressNotFoundError: The address 127.0.0.1 is not in the database.
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Internal Server Error: /plan
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_rencana' with arguments '('',)' not found. 1 pattern(s) tried: ['plan/(?P<pk>[0-9]+)/\\Z']
+Internal Server Error: /plan
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_rencana' with arguments '('',)' not found. 1 pattern(s) tried: ['plan/(?P<pk>[0-9]+)/\\Z']
+Internal Server Error: /plan
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail_rencana' with arguments '('',)' not found. 1 pattern(s) tried: ['plan/(?P<pk>[0-9]+)/\\Z']
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 31, in get_object
+    queryset = self.get_queryset()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 72, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: RencanaDetail is missing a QuerySet. Define RencanaDetail.model, RencanaDetail.queryset, or override RencanaDetail.get_queryset().
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 31, in get_object
+    queryset = self.get_queryset()
+TypeError: get_queryset() missing 1 required positional argument: 'request'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 37, in get_object
+    queryset = queryset.filter(pk=pk)
+AttributeError: 'NoneType' object has no attribute 'filter'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 37, in get_object
+    queryset = queryset.filter(pk=pk)
+AttributeError: 'NoneType' object has no attribute 'filter'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+TypeError: get_context_data() missing 1 required positional argument: 'request'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+TypeError: get_context_data() missing 1 required positional argument: 'request'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\RencanaWisata.py", line 38, in get_context_data
+    context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata_id=rencana.id).all()
+AttributeError: 'QuerySet' object has no attribute 'id'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\RencanaWisata.py", line 38, in get_context_data
+    context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata_id=self.kwargs.pk).all()
+AttributeError: 'dict' object has no attribute 'pk'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\RencanaWisata.py", line 38, in get_context_data
+    context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata_id=kwargs['id']).all()
+KeyError: 'id'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\RencanaWisata.py", line 38, in get_context_data
+    context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata_id=rencana.id).all()
+AttributeError: 'QuerySet' object has no attribute 'id'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\RencanaWisata.py", line 38, in get_context_data
+    context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata_id=rencana.id).all()
+AttributeError: 'QuerySet' object has no attribute 'id'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\RencanaWisata.py", line 38, in get_context_data
+    context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata_id=rencana.id).all()
+AttributeError: 'QuerySet' object has no attribute 'id'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\RencanaWisata.py", line 38, in get_context_data
+    context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata_id=rencana.id).all()
+AttributeError: 'QuerySet' object has no attribute 'id'
+Internal Server Error: /plan/68/
+Traceback (most recent call last):
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "C:\Users\richo\PycharmProjects\tourmate\tours\views\RencanaWisata.py", line 38, in get_context_data
+    context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata=rencana).all()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\sql\query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\fields\related_lookups.py", line 168, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\richo\PycharmProjects\tourmate\venv\lib\site-packages\django\db\models\lookups.py", line 337, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+Not Found: /favicon.ico
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Method Not Allowed (GET): /posts/richo/
+Method Not Allowed: /posts/richo/
+Method Not Allowed (GET): /posts/richo/
+Method Not Allowed: /posts/richo/
+Method Not Allowed (GET): /posts/richo/
+Method Not Allowed: /posts/richo/
+Method Not Allowed (GET): /posts/richo/
+Method Not Allowed: /posts/richo/
+Method Not Allowed (GET): /posts/richo/
+Method Not Allowed: /posts/richo/
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/content--20210113071032.jfif
+Not Found: /image/bali.jpg
+Not Found: /image/bali.jpg
+Not Found: /image/content--20210113071032.jfif
+Not Found: /images/city/yogyakarta-indonesia-motorbike-guide-main-image.jpg
+Not Found: /sas

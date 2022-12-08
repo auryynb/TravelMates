@@ -79,15 +79,17 @@
             <div class="container text-center">
                 <div class="row row-cols-auto">
                     {% for plan in user_plan %}
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <img src="{{ plan.city_dest.image }}" class=" card-img-top "                                 alt="">
-                            <h5>{{ plan.title }}</h5>
-                            <h6><span class="material-symbols-outlined">location_on</span>
-                                &ensp;{{ plan.city_dest.city }}</h6>
-                            <h5>Rp{{ plan.real_cost | intcomma }}</h5>
+                        <a href="{% url 'detail_rencana' plan.id %}" class="text-decoration-none text-dark">
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img src="{{ plan.city_dest.image.url }}" class=" card-img-top " alt="">
+                                <h5>{{ plan.title }}</h5>
+                                <h6><span class="material-symbols-outlined">location_on</span>
+                                    &ensp;{{ plan.city_dest.city }}</h6>
+                                <h5>Rp{{ plan.real_cost | intcomma }}</h5>
+                            </div>
                         </div>
-                    </div>
+                        </a>
                     {% endfor %}
                 </div>
             </div>
@@ -103,7 +105,7 @@
                         <a onclick="document.getElementById('form-id-{{ city.city }}').submit();">
                             <div class="col">
                                 <div class="card">
-                                    <img src="{{ city.image }}" class=" card-img-top "
+                                    <img src="{{ city.image.url }}" class=" card-img-top "
                                          alt="">
                                     <h5>Eksplorasi {{ city.city }} 2D 1N</h5>
                                     <select class="plan-form form-select align-baseline" id="floatingSelect"

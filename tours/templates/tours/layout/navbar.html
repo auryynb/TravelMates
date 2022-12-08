@@ -47,7 +47,8 @@
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#"><span class="material-symbols-outlined">travel_explore</span> Eksplorasi</a></li>
+                <li><a class="dropdown-item" href="/explore"><span class="material-symbols-outlined">article</span>Eksplorasi</a></li>
+                <li><a class="dropdown-item" href="/plan"><span class="material-symbols-outlined">travel_explore</span> Buat Rencana</a></li>
             </ul>
         </div>
     {% else %}
@@ -64,7 +65,7 @@
                 <li><a class="dropdown-item" href="posts/{{ request.user.username }}/">
                     <span class="material-symbols-outlined">demography</span> Lihat Post</a></li>
                 <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/plan">
                         <span class="material-symbols-outlined">travel_explore</span> Buat Rencana</a>
                 </li>
                 <li>
