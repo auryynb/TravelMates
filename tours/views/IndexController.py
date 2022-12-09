@@ -22,6 +22,16 @@ class IndexView(generic.ListView):
             city = g.city(ip) #cari kota based on ip
         return city
 
+    def get_city_from_ip(self, ip):
+        g = GeoIP2()  # manggil library
+        if ip == '' :
+            return False
+        if ip == '127.0.0.1':
+            city = g.city('103.165.157.4')
+        else:
+            city = g.city(ip)  # cari kota based on ip
+        return city
+
     def get_city_list(self):
         return Kota.objects.values('city', 'province')
 

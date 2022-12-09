@@ -30,11 +30,11 @@ SECRET_KEY = 'django-insecure-5pec(yljj9gdmgk#u0w4jic27-=+z$hi7v19d1#op9i#lg6b4a
 if 'RDS_DB_NAME' in os.environ:
     DEBUG = False
 else:
-    DEBUG = True
+    DEBUG = False
 
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['127.0.0.1', 'testserver', '10.200.19.217', 'travelmates.us-east-1.elasticbeanstalk.com', 'travelmates.ga']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'testserver', '10.200.19.217', 'travelmates.us-east-1.elasticbeanstalk.com', 'travelmates.ga']
 
 # Application definition
 
@@ -107,6 +107,14 @@ else:
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'tour_trial',
+            'USER': 'postgres',
+            'PASSWORD': 'w174ya',
+            'HOST': 'localhost',
+            'PORT': '5432',
+        },
+        'test': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'tour_trialx',
             'USER': 'postgres',
             'PASSWORD': 'w174ya',
             'HOST': 'localhost',

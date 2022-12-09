@@ -21,30 +21,6 @@ class Kota(models.Model):
         return self.city
 
 
-class ImageAlbum(models.Model):
-    name = models.CharField(max_length=255, default='Album ')
-
-    def __str__(self):
-        return str(self.name)
-
-    def default(self):
-        return self.images.filter(default=True).first()
-
-    def thumbnails(self):
-        return self.images.filter(width__lt=100, length_lt=100)
-
-
-class Image(models.Model):
-    name = models.CharField(max_length=255)
-    image = models.ImageField(upload_to='images/')
-    default = models.BooleanField(default=False)
-    width = models.FloatField(default=100)
-    length = models.FloatField(default=100)
-    album = models.ForeignKey(ImageAlbum, related_name='images', on_delete=models.CASCADE)
-    created_at = models.DateTimeField(auto_now_add=True, null=True)
-    updated_at = models.DateTimeField(auto_now=True, null=True)
-
-
 class Destinasi(models.Model):
     CATEGORY_CHOICE = [
         ('Wisata Alam', 'Wisata Alam'),
@@ -58,7 +34,6 @@ class Destinasi(models.Model):
     name = models.CharField(max_length=200)
     categories = models.CharField(max_length=200, choices=CATEGORY_CHOICE, null=True)
     image_path = models.ImageField(upload_to='images')
-    album = models.OneToOneField(ImageAlbum, related_name='model', on_delete=models.CASCADE, null=True)
     address = models.CharField(max_length=200)
     maps = models.CharField(max_length=1500, null=True)
     panorama = models.CharField(max_length=1500, null=True)

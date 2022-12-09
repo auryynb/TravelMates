@@ -579,6 +579,10 @@ footer{
     margin-top: 70px;
 }
 
+.footer-grid-item  a{
+    text-decoration: none !important;
+}
+
 .footer-grid{
     border-top: 0.1px solid rgba(141, 141, 141, 0.52);
     background: rgba(255, 255, 255, 0.435) no-repeat right top;
@@ -604,7 +608,7 @@ footer{
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #8222e7;
+    color: #000000;
 }
 .footer-grid-item .heading h2{
     padding-bottom: 10px;

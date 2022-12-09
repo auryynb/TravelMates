@@ -33,7 +33,7 @@ class RencanaDetail(generic.DetailView):
 
     def get_context_data(self, *args, **kwargs):
         context = super(RencanaDetail, self).get_context_data(*args, **kwargs)
-        rencana = RencanaWisata.objects.filter(id=self).get()
+        rencana = RencanaWisata.objects.filter(id=self.kwargs['pk']).get()
         context['rencana'] = rencana
         context['destinasi'] = RencanaWisataDestinasi.objects.filter(rencana_wisata=rencana).all()
         return context

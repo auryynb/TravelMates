@@ -33,7 +33,7 @@ def closestSum(arr, k):
 
 
 def destinationBudgetMapping(budget_destinasi, city_to):
-    destination = Destinasi.objects.filter(city=city_to)
+    destination = Destinasi.objects.filter(city_id=city_to)
     sample_list = list(destination.values_list('price_max', flat=True))
     target_value = budget_destinasi
     sum_dest = closestSum(sample_list, target_value)
@@ -44,14 +44,9 @@ def destinationBudgetMapping(budget_destinasi, city_to):
         res = list(filter(lambda x: x.price_max == price, destination_list))
         destinasi.append(res[0])
         destination_list.remove(res[0])
-    print(destinasi)
-
-    if len(destinasi) > 2:
-        print(len(destinasi))
+    if len(destinasi) > 1:
         return destinasi
     else:
-        print(len(destinasi))
-        print('Destinasi tidak memenuhi')
         return False
 
 
@@ -65,17 +60,14 @@ def rencanaTransportasi(r, budget_transportasi, city_from, city_to):
         return_time = datetime.strptime(transportasi_pulang.depart_time.strftime("%H:%M:%S"), '%H:%M:%S')
         r.transportasi_pergi = transportasi_pergi
         r.transportasi_pulang = transportasi_pulang
-        print('sukses')
         r.save()
         return current_time, return_time, cost
     else:
-        print(transportasi_pulang)
-        print(transportasi_pergi)
-        print('Transportasi tidak sesuai budget')
         return False
 
 
 def rencanaDestinasi(r, destinasi, plan_days, current_time, return_time):
+    print(destinasi)
     rencana = r
     start_time = current_time
     end_time = start_time + timedelta(hours=4)
@@ -96,7 +88,6 @@ def rencanaDestinasi(r, destinasi, plan_days, current_time, return_time):
                 start_time = end_time
                 cost += des.price_max
                 if end_time.hour+4 >= return_time.hour and days == rencana.days:
-                    print('waktunya pulang')
                     break
                 else:
                     continue
@@ -115,10 +106,8 @@ def rencanaAkomodasi(r, budget, city_to):
         r.akomodasi = akomodasi
         cost = akomodasi.price_per_night
         r.save()
-        print('sukses')
         return True, cost
     else:
-        print('akomodasi tidak cocok')
         return False
 
 
@@ -126,16 +115,15 @@ def rencanaWisata(budget, days, city_from, city_to):
     split = splitBudget(days)
     total_cost = 0
     r = RencanaWisata(title='test', budget=budget, days=days, city_start_id=city_from, city_dest_id=city_to)
-    print('called once')
+    # print('called once')
     r.save()
     tot_akomodasi = split[0] * budget
     budget_akomodasi = split[1] * budget
     if city_from == city_to:
-        print('city_same')
         budget_destinasi = budget - tot_akomodasi
         akom = rencanaAkomodasi(r, budget_akomodasi, city_to)
         destinasi = destinationBudgetMapping(budget_destinasi, city_to)
-        print(destinasi)
+        # print(destinasi)
         if akom is not False and destinasi is not False:
             start_time = datetime(1900, 1, 1, 8, 0)
             end_time = datetime(1900, 1, 1, 21, 0)
@@ -149,19 +137,19 @@ def rencanaWisata(budget, days, city_from, city_to):
             r.delete()
         return r
     else:
-        print('city not same')
-        print('akomodasi', budget_akomodasi)
+        # print('city not same')
+        # print('akomodasi', budget_akomodasi)
         budget_transportasi = (0.6 * (1 - split[0])) * budget
         budget_destinasi = (0.4 * (1 - split[0])) * budget
-        print('transport', budget_transportasi)
-        print('destinasi', budget_destinasi)
-        print(budget_destinasi + tot_akomodasi+budget_transportasi)
+        # print('transport', budget_transportasi)
+        # print('destinasi', budget_destinasi)
+        # print(budget_destinasi + tot_akomodasi+budget_transportasi)
         akom = rencanaAkomodasi(r, budget_akomodasi, city_to)
         rt = rencanaTransportasi(r, budget_transportasi, city_from, city_to)
         destinasi = destinationBudgetMapping(budget_destinasi, city_to)
         if akom is not False and rt is not False and destinasi is not False :
             dest = rencanaDestinasi(r, destinasi, days, rt[0], rt[1])
-            print(dest)
+            # print(dest)
             total_cost = (akom[1]*days) + dest + rt[2]
             r.real_cost = total_cost
             r.save()

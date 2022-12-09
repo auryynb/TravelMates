@@ -8,7 +8,7 @@ from tours.views.IndexController import IndexView
 class IndexDestinasiController(generic.ListView):
     template_name = 'tours/destination/destination_list.html'
     context_object_name = 'destination_list'
-
+    paginate_by = 20
     def get_context_data(self, *args, **kwargs):
         context = super(IndexDestinasiController, self).get_context_data(*args, **kwargs)
         user_city = IndexView.get_ip(self)
@@ -34,6 +34,18 @@ class IndexDestinasiController(generic.ListView):
         else:
             return 'Tidak ditemukan'
 
+    def search(self, keyword):
+        if keyword:
+            q = Destinasi.objects.filter(name__icontains=keyword)
+            if q:
+                return q
+            else:
+                return 'Tidak ditemukan'
+        else:
+            return False
+
+
+
     def get_queryset(self):
         user_city = IndexView.get_ip(self)
         if self.request.GET.get("location") is not None or Empty:
@@ -41,7 +53,7 @@ class IndexDestinasiController(generic.ListView):
         g = Destinasi.objects.filter(
             Q(city__city=user_city['city']) | Q(city__related_city=user_city['city'])).annotate(
             relevancy=Case(When(city=user_city['city'], then=Value(True)), output_field=BooleanField())).order_by(
-            'relevancy')[:12]
+            'relevancy')
         if not g:
             g = Destinasi.objects.all()
         return g
