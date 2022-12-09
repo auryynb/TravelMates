@@ -11498,3 +11498,23 @@ Traceback (most recent call last):
     raise SuspiciousOperation("Attempted access to '%s' denied." % name)
 django.core.exceptions.SuspiciousOperation: Attempted access to '/image/borobudur.jpg' denied.
 Bad Request: /
+Not Found: /static/tours/assets/plan-bg.png
+Not Found: /static/tours/assets/plan-bg.png
+Not Found: /static/fontawesomefree/css/fontawesome.css
+Not Found: /static/fontawesomefree/css/brands.css
+Not Found: /static/fontawesomefree/css/solid.css
+Not Found: /static/tours/assets/man.png
+Not Found: /static/fontawesomefree/css/fontawesome.css
+Not Found: /static/fontawesomefree/css/brands.css
+Not Found: /static/fontawesomefree/css/solid.css
+Not Found: /static/tours/assets/plan-bg.png
+Not Found: /static/favicon.ico
+Not Found: /static/favicon.ico
+Not Found: /static/fontawesomefree/css/fontawesome.css
+Not Found: /static/fontawesomefree/css/brands.css
+Not Found: /static/fontawesomefree/css/solid.css
+Not Found: /static/tours/assets/man.png
+Not Found: /static/fontawesomefree/css/fontawesome.css
+Not Found: /static/fontawesomefree/css/brands.css
+Not Found: /static/fontawesomefree/css/solid.css
+Not Found: /static/favicon.ico

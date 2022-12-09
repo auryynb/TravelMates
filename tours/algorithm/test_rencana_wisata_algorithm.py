@@ -100,7 +100,6 @@ class Test(TestCase):
 
     def test_rencana_destinasi(self):
         r = rencanaWisata(1000000, 2, 'Malang', 'Yogyakarta')
-        print(r.id)
         destinasi = list(Destinasi.objects.filter(city=r.city_dest).all())
         # rencanaDestinasi(r, destinasi, r.days, datetime.strptime(r.transportasi_pergi.arrive_time.strftime("%H:%M:%S"), '%H:%M:%S'), datetime.strptime(r.transportasi_pulang.depart_time.strftime("%H:%M:%S"), '%H:%M:%S'))
         result = r.destination.all()

@@ -28,9 +28,9 @@ SECRET_KEY = 'django-insecure-5pec(yljj9gdmgk#u0w4jic27-=+z$hi7v19d1#op9i#lg6b4a
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if 'RDS_DB_NAME' in os.environ:
-    DEBUG = False
+    DEBUG = True
 else:
-    DEBUG = False
+    DEBUG = True
 
 
 # ALLOWED_HOSTS = ['*']

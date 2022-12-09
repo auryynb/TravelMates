@@ -67,7 +67,6 @@ def rencanaTransportasi(r, budget_transportasi, city_from, city_to):
 
 
 def rencanaDestinasi(r, destinasi, plan_days, current_time, return_time):
-    print(destinasi)
     rencana = r
     start_time = current_time
     end_time = start_time + timedelta(hours=4)
@@ -102,7 +101,6 @@ def rencanaDestinasi(r, destinasi, plan_days, current_time, return_time):
 def rencanaAkomodasi(r, budget, city_to):
     akomodasi = Akomodasi.objects.order_by('-price_per_night').filter(price_per_night__lte=budget, city=city_to).first()
     if (akomodasi):
-        print(akomodasi)
         r.akomodasi = akomodasi
         cost = akomodasi.price_per_night
         r.save()
